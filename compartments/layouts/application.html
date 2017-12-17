@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{#block 'title'}}Oka's Auto Airship!{{/block}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat" rel="stylesheet">
+    <style>
+      /* CSS Reset */
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed,
+      figure, figcaption, footer, header, hgroup,
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+
+      body {
+        line-height: 1;
+      }
+
+      ol, ul {
+        list-style: none;
+      }
+
+      blockquote, q {
+        quotes: none;
+      }
+
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: "";
+        content: none;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      /* DEFAULTS */
+
+/*      .content{
+        padding: 40px 30px 50px;
+        border-radius: 2px;
+        margin: 0 30px;
+      }
+
+      @media only screen and (min-width: 725px){
+        .content{
+          padding: 50px 40px 60px;
+          max-width: 550px;
+          margin: auto;
+        }
+      }
+
+      h1{
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+        font-size: 19px;
+        line-height: 25px;
+        font-weight: 300;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      p{
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+        font-size: 13px;
+        line-height: 19px;
+        font-weight: 300;
+        color: #FFFFFF;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+        max-width: 350px;
+      }
+
+      a{
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      a.button{
+        display: block;
+        box-sizing: border-box;
+        max-width: 300px;
+        border-radius: 2px;
+        padding: 15px;
+        margin: auto;
+        font-family: "Montserrat", "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        position: relative;
+      }
+
+      a.button:hover{
+        transition: all 0.2s ease;
+      }
+
+      span.arrow{
+        display: inline-block;
+        width: 10px;
+        height: 1px;
+        transform: translateY(-4px);
+      }
+
+      span.arrow:after{
+        width: 7px;
+        height: 7px;
+        display: block;
+        content: " ";
+        transform: rotate(45deg) translateX(-1px) translateY(-4px);
+      }
+
+      .svg-logo{
+        width: 125px;
+        height: 33px;
+        display: block;
+        margin: auto;
+        padding: 30px 0;
+      }
+
+      .svg-logo svg{
+        width: 125px;
+        height: 33px;
+      }
+
+      .svg-logo path{
+        fill: #FFFFFF;
+      }*/
+
+      /* HELP */
+
+/*      ul{
+        margin: 0;
+        padding: 0;
+        padding: 0 20px;
+      }
+
+      ul li{
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #333333;
+        list-style-type: disc;
+        margin-left: 18px;
+      }
+
+      body.orange-theme ul li,
+      body.grey-theme ul li{
+        color: #FFFFFF;
+      }
+
+      body.teal-theme ul li{
+        color: #007275;
+      }*/
+
+      /* TEAL */
+
+/*      body.teal-theme{
+        background-color: #91d8dc;
+      }
+
+      body.teal-theme h1{
+        color: #007275;
+      }
+
+      body.teal-theme p{
+        color: #007275;
+      }
+
+      body.teal-theme .svg-logo path{
+        fill: #21b5bd;
+      }
+
+      body.teal-theme .content{
+        border: none;
+        background-color: rgba(255,255,255,0.3);
+      }
+
+      body.teal-theme a.button{
+        color: #FFFFFF;
+        background-color: #009DA1;
+      }
+
+      body.teal-theme a.button:hover{
+        color: #91d8dc;
+        background-color: #008B8F;
+      }
+
+      body.teal-theme a.button span.arrow{
+        background-color: #FFFFFF;
+      }
+
+      body.teal-theme a.button span.arrow:after{
+        border-right: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+      }
+
+      body.teal-theme a.button:hover span.arrow{
+        background-color: #91d8dc;
+      }
+
+      body.teal-theme a.button:hover span.arrow:after{
+        border-right: 1px solid #91d8dc;
+        border-top: 1px solid #91d8dc;
+      }*/
+
+      /* ORANGE */
+
+/*      body.orange-theme{
+        background-color: #FF921C;
+      }
+
+      body.orange-theme h1{
+        color: #FFFFFF;
+      }
+
+      body.orange-theme p{
+        color: #FFFFFF;
+      }
+
+      body.orange-theme .svg-logo path{
+        fill: #FFFFFF;
+      }
+
+      body.orange-theme .content{
+        background-color: rgba(255,255,255,0.1);
+      }
+
+      body.orange-theme a.button{
+        color: #FF921C;
+        background-color: #FFD940;
+      }
+
+      body.orange-theme a.button:hover{
+        background-color: #F7BB16;
+      }
+
+      body.orange-theme a.button span.arrow{
+        background-color: #FF921C;
+      }
+
+      body.orange-theme a.button span.arrow:after{
+        border-right: 1px solid #FF921C;
+        border-top: 1px solid #FF921C;
+      }*/
+
+      /* GREY */
+/*
+      body.grey-theme{
+        background-color: #617074;
+      }
+
+      body.grey-theme p{
+        color: #CCDFE3;
+      }
+
+      body.grey-theme .svg-logo path{
+        fill: #CCDFE3;
+      }
+
+      body.grey-theme .content{
+        background-color: rgba(255,255,255,0.1);
+      }
+
+      body.grey-theme a.button{
+        color: #617074;
+        background-color: #CCDFE3;
+      }
+
+      body.grey-theme a.button:hover{
+        background-color: #91A6AB;
+      }
+
+      body.grey-theme a.button span.arrow{
+        background-color: #617074;
+      }
+
+      body.grey-theme a.button span.arrow:after{
+        border-right: 1px solid #617074;
+        border-top: 1px solid #617074;
+      }*/
+
+    </style>
+  </head>
+  <!-- default content 'teal-theme' will be used if the page or collection template rendered does not provide an alternative for the content_for block-->
+  <!-- <body class="{{#block 'color_theme'}}teal-theme{{/block}}"> -->
+  <body>
+    {{{ template }}}
+  </body>
+</html>

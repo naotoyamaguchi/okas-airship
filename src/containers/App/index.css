@@ -1,0 +1,46 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 100px; /* Margin bottom by footer height */
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-appear-active,
+.fade-enter-active {
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.fade-exit {
+  transition: .5s ease;
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+}
+
+a.active {
+  color: #3f51b5;
+}
+
+.page-main {
+  position: relative;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.page-main-inner {
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 80px 20px 120px 20px;
+}
