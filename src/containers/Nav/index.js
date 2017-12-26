@@ -5,7 +5,7 @@ import './index.css';
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark ml-md-4 mr-md-4">
         <a className="navbar-brand" href="#">
           <img src={require("../../assets/OkasLOGO.png")} width="300" height="100" className="d-inline-block align-top" alt="" />
         </a>
