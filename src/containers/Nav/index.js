@@ -5,7 +5,7 @@ import './index.css';
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark ml-md-4 mr-md-4">
+      <nav className="navbar navbar-expand-lg navbar bg ml-lg-5 mr-lg-5">
         <a className="navbar-brand" href="#">
           <img src={require("../../assets/OkasLOGO.png")} width="300" height="100" className="d-inline-block align-top" alt="" />
         </a>
@@ -38,6 +38,10 @@ class Nav extends Component {
               </a>
             </li>
           </ul>
+          <span class="navbar-text" id="address">
+            <p>94-173 Leokane St. Waipahu, HI 96797</p>
+            <p>(808) 677-5474 Hours: 7:30am-4:30pm M-F</p>
+          </span>
         </div>
 
 
