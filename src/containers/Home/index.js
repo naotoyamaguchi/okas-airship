@@ -65,7 +65,7 @@ class Home extends Component {
           <h1 id="in-the-news">
             Oka's in the News
           </h1>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp00gO6fjJM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/Mp00gO6fjJM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>*/}
         </div>
 
 
