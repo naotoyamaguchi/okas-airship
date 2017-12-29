@@ -13,6 +13,7 @@ import Faq from "./containers/Faq";
 import Community from "./containers/Community";
 import Nav from "./containers/Nav";
 import Footer from "./containers/Footer";
+import Services from './containers/Services';
 import "./index.css";
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/faq" component={Faq} />
       <Route exact path="/community" component={Community} />
+      <Route exact path="/services" component={Services} />
     </App>
     
   </BrowserRouter>,

@@ -44,13 +44,13 @@ class Home extends Component {
         <div id="carouselControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="d-block w-100" src="https://static.pexels.com/photos/170811/pexels-photo-170811.jpeg" alt="First slide"/>
+              <img className="d-block w-100" src={require("../../assets/stock-carousel-photo.jpeg")} alt="First slide"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src="https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_1280.jpg" alt="Second slide"/>
+              <img className="d-block w-100" src={require("../../assets/stock-carousel-photo.jpeg")} alt="Second slide"/>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src="https://auto.ndtvimg.com/car-images/big/audi/a3-cabriolet/audi-a3-cabriolet.jpg?v=17" alt="Third slide"/>
+              <img className="d-block w-100" src={require("../../assets/stock-carousel-photo.jpeg")} alt="Third slide"/>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
@@ -75,7 +75,7 @@ class Home extends Component {
           
           <div className="top-insurance">
 
-            <img className="insurance-image" src="https://www.wpclipart.com/education/books/books_4/open_book_BW.png"/>
+            <img className="insurance-image" src={require("../../assets/open-book.png")}/>
             
             <div className="insurance-text">
                <h2 className="insurance-header">Know Your Rights!</h2>
@@ -94,11 +94,26 @@ class Home extends Component {
       <hr/>
 
       <div className="home-certifications">
-          <h1>Certifications goes here</h1>
+          <span className="certification-header">WE ARE CERTIFIED</span>
+          <div className="certification-bar">
+            <img className="certification-image" src={require("../../assets/ACoat_Cert.jpg")}/>
+            <img className="certification-image" src={require("../../assets/Icar_Cert.png")}/>
+            <img className="certification-image" src={require("../../assets/ASE_Cert.png")}/>
+          </div>
       </div>
 
       <div className="home-bottom">
-          <h1>Media goes here</h1>
+          <h2 className="bottom-header">Oka's In The News</h2>
+          <div className="bottom-media">
+            <div className="primary-media">
+            </div>
+            <div className="secondary-media-column">
+               <div className="secondary-media" id="media1">
+               </div>
+               <div className="secondary-media" id="media2">
+               </div>
+            </div>
+          </div>
       </div>
 
 

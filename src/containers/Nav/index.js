@@ -15,7 +15,7 @@ class Nav extends Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 <Link to="/">Home</Link>
                 <span className="sr-only">
                   (current)
@@ -23,17 +23,22 @@ class Nav extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
                 <Link to="/contact">Contact</Link>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link">
+                <Link to="/services">Services</Link>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link">
                 <Link to="/faq">FAQ</Link>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#">
+              <a className="nav-link disabled">
                 <Link to="/community">Community</Link>
               </a>
             </li>

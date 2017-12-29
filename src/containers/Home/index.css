@@ -1,18 +1,21 @@
 .tales {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
 .carousel-inner{
-  width:100%;
+  width:95%;
+  margin: 0 auto;
   max-height: 400px !important;
 }
 
 .carousel, .slide {
 	padding-bottom: 1em;
+	border: 1px solid green;
 }
 
 .home-top {
 	border:3px solid black;
-	padding: 5px;
+	padding: 36px;
 	margin-top: 2em;
 	letter-spacing: 0.3px;
 	overflow: hidden;
@@ -78,12 +81,73 @@
 	font-size: .75em;
 }
 
+.certification-header {
+	font-size: .75em;
+	font-weight: normal;
+}
+
 .home-certifications {
 	text-align: center;
 	border: 2px solid red;
 }
 
+.certification-bar{
+	border: 1px solid black;
+}
+
+.certification-image {
+	height: 50px;
+	margin: 1em;
+}
+
 .home-bottom {
 	text-align: center;
 	border: 2px solid purple;
+	background-color: #444444;
+	padding-top: 2.5em;
+}
+
+.bottom-header {
+	color: white !important;
+}
+
+.bottom-media {
+	width: 90%;
+	margin: 1.5em auto 4em;
+	border: 1px solid yellow;
+	height: 350px;
+}
+
+.primary-media, .secondary-media-column {
+	display: inline-block;
+	border: 1px solid white;
+}
+
+.primary-media {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background-color: yellow;
+}
+
+.secondary-media-column {
+	width: 30%;
+	height: 100%;
+	float: right;
+	display: flex;
+	flex-direction: column;
+}
+
+.secondary-media {
+	width: 100%;
+	height: 45%;
+	border: 1px solid lime;
+}
+
+#media1 {
+	margin-bottom: auto;
+}
+
+#media2 {
+	padding-top: 5%;
 }

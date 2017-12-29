@@ -1,0 +1,21 @@
+.services-header {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.services-title {
+	border: 1px solid red;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+}
+
+.services-row {
+	width: 90%;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 2em, 0;
+}
+
