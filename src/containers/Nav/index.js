@@ -5,9 +5,9 @@ import './index.css';
 class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar bg ml-lg-5 mr-lg-5">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="#">
-          <img src={require("../../assets/OkasLOGO.png")} width="300" className="d-inline-block align-top" alt="" />
+          <img src={require("../../assets/OkasLOGO.png")} className="d-block align-top" alt="" />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -38,21 +38,17 @@ class Nav extends Component {
               </a>
             </li>
           </ul>
-          <span class="navbar-text" id="address">
-            <p>94-173 Leokane St. Waipahu, HI 96797</p>
-            <p>(808) 677-5474 Hours: 7:30am-4:30pm M-F</p>
-          </span>
+        </div>
+        <div className="header-info">
+          <div className="header-info-line">
+            94-173 Leokane St, Waipahu, HI 96796
+          </div>
+          <div className="header-info-line">
+            <span className="info-span1">808-677-5474</span>
+            <span className="info-span2">Hours: 7:30-4:30 M-F</span>
+          </div>
         </div>
 
-
-{/*        <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/faq">FAQ</Link>
-        <Link to="/community">Community</Link>
-        <div className="address">
-        <p>94-173 Leokane St. Waipahu, HI 96797</p>
-        <p>(808) 677-5474 Hours: 7:30am-4:30pm M-F</p>
-         </div>*/}
       </nav>
     );
   }

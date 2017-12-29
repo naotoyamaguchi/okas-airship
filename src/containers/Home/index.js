@@ -41,34 +41,65 @@ class Home extends Component {
  render() {
    return (
       <div className="App">
-        <div className="home-block" id="top">
-          <div id="slides">
-          Lorem ipsum dolor sit amet lorameskfjafjasf
+        <div id="carouselControls" className="carousel slide" data-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="d-block w-100" src="https://static.pexels.com/photos/170811/pexels-photo-170811.jpeg" alt="First slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src="https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_1280.jpg" alt="Second slide"/>
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src="https://auto.ndtvimg.com/car-images/big/audi/a3-cabriolet/audi-a3-cabriolet.jpg?v=17" alt="Third slide"/>
+            </div>
           </div>
+          <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
+          </a>
+          <a className="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
+          </a>
         </div>
-        <div className="home-block" id="mid">
-          <h1 className="home-welcome-header">
-            Welcome to Oka's Auto Body
-          </h1>
-          <div className="site-description">
-            At Oka's Auto Body, we know that you will drive home our reputation! Browse our offerings, request an estimate, or visit us in person. We promise to offer the best in workmanship and customer service.
-          </div>
-          <div id="insurance-info">
-            Know Your Rights! Did you know you have the right to choose your provider for insurance claims?
 
-            Find out more >
+      <div className="home-top">
+          <div className="top-text">
+             <h1 className="top-header">
+             Welcome to Oka's Auto Body
+             </h1>
+             <div className="top-description">
+               At Oka's Auto Body, we know that you will drive home our reputation! Browse our offerings, request an estimate, or visit us in person. We promise to offer the best in workmanship and customer service.
+             </div>
           </div>
-          <hr/>
-          <div id="certifications">
-            WE ARE CERTIFIED
+          
+          <div className="top-insurance">
+
+            <img className="insurance-image" src="https://www.wpclipart.com/education/books/books_4/open_book_BW.png"/>
+            
+            <div className="insurance-text">
+               <h2 className="insurance-header">Know Your Rights!</h2>
+               <div className="insurance-description">
+                  Did you know you have the right to choose your provider for insurance claims?
+               </div>
+            </div>
+
+            <div className="insurance-button">
+               Find Out More >
+            </div>
           </div>
-        </div>
-        <div className="home-block" id="bottom">
-          <h1 id="in-the-news">
-            Oka's in the News
-          </h1>
-          {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/Mp00gO6fjJM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>*/}
-        </div>
+          
+      </div>
+
+      <hr/>
+
+      <div className="home-certifications">
+          <h1>Certifications goes here</h1>
+      </div>
+
+      <div className="home-bottom">
+          <h1>Media goes here</h1>
+      </div>
 
 
        <div

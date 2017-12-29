@@ -1,3 +1,89 @@
-.App {
-  flex: 1;
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}
+
+.carousel, .slide {
+	padding-bottom: 1em;
+}
+
+.home-top {
+	border:3px solid black;
+	padding: 5px;
+	margin-top: 2em;
+	letter-spacing: 0.3px;
+	overflow: hidden;
+}
+
+.top-text {
+	border: 1px solid red;
+	width: 60%;
+	display: inline-block;
+}
+
+.top-header {
+	border: 1px solid blue;
+	color: #3D5AAA !important;
+	font-weight: 200 !important;
+	letter-spacing: 0.75px;
+}
+
+.top-description {
+	border: 1px solid orange;
+}
+
+.top-insurance {
+	border: 1px solid yellow;
+	background-color: #3D5AAA;
+	color: white;
+	width: 30%;
+	display: inline-block;
+	float: right;
+	height: 190px;
+	padding: 1em;
+}
+
+.insurance-image {
+	height: 50px;
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.insurance-button {
+	text-align: center;
+	width: 100%;
+	border: 0.5px solid white;
+	padding: 0.5em;
+	margin-top: 0.5em;
+}
+
+.insurance-text {
+	width: 60%;
+	margin-left: 1em;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.insurance-header {
+	font-size: 1em !important;
+	color: white !important;
+	font-weight: bold !important;
+}
+
+.insurance-description {
+	font-size: .75em;
+}
+
+.home-certifications {
+	text-align: center;
+	border: 2px solid red;
+}
+
+.home-bottom {
+	text-align: center;
+	border: 2px solid purple;
 }

@@ -1,10 +1,40 @@
-.footer {
-  display: flex;
+/*.footer {
   background-color: #2b2b2b;
   color: #bababa;
-  font-size: 8pt;
-  margin: 0% 5%;
-  padding: 2% 25%;
+  margin: 0 auto;
   position: absolute;
   bottom: 0;
+  max-width: 1200px;
+  min-width: 1200px;
+  height: 50px;
+}*/
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  /*width: 100%;*/
+  /*width: 1200px;*/
+  /* Set the fixed height of the footer here */
+  height: 3em;
+  line-height: 3em; /* Vertically center the text there */
+  background-color: #2b2b2b;
+  text-align: center;
+  padding: 0;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  /* NOTE: font-size currently sets the size of the footer.; */
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer{
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer {
+    width: 100%;
+    letter-spacing: 0px;
+  }
 }
