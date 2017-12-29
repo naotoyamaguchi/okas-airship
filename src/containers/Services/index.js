@@ -71,9 +71,18 @@ class Services extends Component {
             {/*self-explanatory service name*/}
             <h2 className="service-name">Service Name</h2>
             {/*self-explanatory again*/}
-            <p className="service-description">
-              The proper repair of collision damage is critical to the safety and performance of your vehicle. Each vehicle is repaired to factory specifications in our state-of-the-art collision repair facility. Our highly skilled I-Car and ASE certified technicians use only the highest quality equipment, parts, and materials. We use the Car-O-Liner, Autorobot, and Body-Loc frame rack systems. This system is capable of multiple pulls, this is critical in returning your vehicle to it's original factory specifications. Certified technicians restore the integrity of the frame or unibody to manufacturer's specifications. Sometimes mechanical components have been damaged or need to be removed to gain access to other damaged areas of your vehicle. We have all the necessary equipment to handle these mechanical repairs. Sometimes mechanical components have been damaged or need to be removed to gain access to other damaged areas of your vehicle. We have all the necessary equipment to handle these mechanical repairs.
-            </p>
+            <div className="service-description">
+              <p>The proper repair of collision damage is critical to the safety and performance of your vehicle. Each vehicle is repaired to factory specifications in our state-of-the-art collision repair facility.
+              </p>
+              <p>Our highly skilled I-Car and ASE certified technicians use only the highest quality equipment, parts, and materials.
+              </p>
+              <p>We use the Car-O-Liner, Autorobot, and Body-Loc frame rack systems. This system is capable of multiple pulls, this is critical in returning your vehicle to it's original factory specifications. Certified technicians restore the integrity of the frame or unibody to manufacturer's specifications.
+              </p>
+              <p>Sometimes mechanical components have been damaged or need to be removed to gain access to other damaged areas of your vehicle. We have all the necessary equipment to handle these mechanical repairs.
+              </p>
+              <p>Sometimes mechanical components have been damaged or need to be removed to gain access to other damaged areas of your vehicle. We have all the necessary equipment to handle these mechanical repairs.
+              </p>
+            </div>
           {/*now this is a row of little images / certs at the bottom of this div*/}
             <div className="service-image-row">
               {/*and a row comes with multiple images*/}
