@@ -1,24 +1,10 @@
-/*.footer {
+.footer {
+  display: flex;
   background-color: #2b2b2b;
   color: #bababa;
   font-size: 8pt;
-  padding: 20px;
-  position: relative;
-  bottom: 0;
-  text-align: center;
-}*/
-
-.footer {
+  margin: 0% 5%;
+  padding: 2% 25%;
   position: absolute;
   bottom: 0;
-/*  width: 100%;*/
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  /* Vertically center the text here */
-  line-height: 60px;
-  background-color: #2b2b2b;
-}
-
-.footerText {
-  color: #bababa;
 }
