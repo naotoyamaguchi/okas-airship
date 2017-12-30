@@ -69,7 +69,7 @@ class Services extends Component {
           <div className="left-service-column">
 
             {/*self-explanatory service name*/}
-            <h2 className="service-name">Service Name</h2>
+            <h2 className="service-name">Body Shop</h2>
             {/*self-explanatory again*/}
             <div className="service-description">
               <p>The proper repair of collision damage is critical to the safety and performance of your vehicle. Each vehicle is repaired to factory specifications in our state-of-the-art collision repair facility.
@@ -106,10 +106,12 @@ class Services extends Component {
         <div className="services-row">
 
           <div className="left-service-column">
-            <h2 className="service-name">Service Name</h2>
-            <p className="service-description">
-              The proper repair of collision damage is critical to the safety and performance of your vehicle. Each vehicle is repaired to factory specifications in our state-of-the-art collision repair facility. Our highly skilled I-Car and ASE certified technicians use only the highest quality equipment, parts, and materials. We use the Car-O-Liner, Autorobot, and Body-Loc frame rack systems. This system is capable of multiple pulls, this is critical in returning your vehicle to it's original factory specifications. Certified technicians restore the integrity of the frame or unibody to manufacturer's specifications. Sometimes mechanical components have been damaged or need to be removed to gain access to other damaged areas of your vehicle. We have all the necessary equipment to handle these mechanical repairs. Sometimes mechanical components have been damaged or need to be removed to gain access to other damaged areas of your vehicle. We have all the necessary equipment to handle these mechanical repairs.
-            </p>
+            <h2 className="service-name">Paint Shop</h2>
+            <div className="service-description">
+              <p>When it comes to automobiles, you can judge a car by its cover! Customers don't want to be reminded that their car has been in an accident. That's why we use state-of-the-art painting systems. Today's modern factory finishes incorporate multiple layers of highly specialized paints. We have made a major investment in the Sikkens paint system and constantly upgrade our technology and equipment to ensure that each vehicle's finish matches.</p>
+              <p>In one of our paint prep areas, your vehicle is prepared for paint by sanding and applying primer and sealer. After your vehicle is done in the spray booth, it is sent back to this area to cool down before being sent back to the body shop for reassembly.</p>
+              <p>After painting and applying clear coat, your vehicle is baked to give the paint durability and a high gloss that will last the life of your vehicle. Your vehicle's paint is then inspected and buffed to meet our quality standard.</p>
+            </div>
             <div className="service-image-row">
               <img className="service-certificate-image" src={require("../../assets/ASE_Cert.png")}/>
               <img className="service-certificate-image" src={require("../../assets/ASE_Cert.png")}/>
