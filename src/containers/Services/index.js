@@ -86,7 +86,7 @@ class Services extends Component {
           {/*now this is a row of little images / certs at the bottom of this div*/}
             <div className="service-image-row">
               {/*and a row comes with multiple images*/}
-              <img className="service-certificate-image" src={require("../../assets/ASE_Cert.png")}/>
+              <img className="service-certificate-image" src={require("../../assets/Icar_Cert.png")}/>
               <img className="service-certificate-image" src={require("../../assets/ASE_Cert.png")}/>
             </div>
           </div>
@@ -113,7 +113,7 @@ class Services extends Component {
               <p>After painting and applying clear coat, your vehicle is baked to give the paint durability and a high gloss that will last the life of your vehicle. Your vehicle's paint is then inspected and buffed to meet our quality standard.</p>
             </div>
             <div className="service-image-row">
-              <img className="service-certificate-image" src={require("../../assets/ASE_Cert.png")}/>
+              <img className="service-certificate-image" src={require("../../assets/Icar_Cert.png")}/>
               <img className="service-certificate-image" src={require("../../assets/ASE_Cert.png")}/>
             </div>
           </div>
