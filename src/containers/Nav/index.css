@@ -44,11 +44,12 @@
 }
 
 .nav-item a, a.nav-item, .header-info{
-  color: white;
+  color: #bababa;
 }
 
 .nav-item a:hover{
-  color: red;
+  color: white;
+  text-decoration: none;
 }
 
 .header-info {
