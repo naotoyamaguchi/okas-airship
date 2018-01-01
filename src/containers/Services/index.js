@@ -95,6 +95,7 @@ class Services extends Component {
           <div className="right-service-column">
             {/*and now we have two flex image children who can line up top down in a column*/}
             <img className="service-image" src={require("../../assets/service-image.jpg")}/>
+            <br></br>
             <img className="service-image" src={require("../../assets/service-image.jpg")}/>
           </div>
 

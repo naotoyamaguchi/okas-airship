@@ -19,6 +19,7 @@
   border: 1px solid black;
   margin: 0 auto;
   padding: 2em, 0;
+  overflow: hidden;
 }
 
 .service-certificate-icar {
@@ -28,3 +29,15 @@
 .service-certificate-ase {
   width: 7%;
 }
+
+.left-service-column {
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+
+.right-service-column {
+  display: inline-block;
+  float: right;
+}
+
