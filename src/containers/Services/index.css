@@ -20,3 +20,11 @@
   margin: 0 auto;
   padding: 2em, 0;
 }
+
+.service-certificate-icar {
+  width: 12%;
+}
+
+.service-certificate-ase {
+  width: 7%;
+}

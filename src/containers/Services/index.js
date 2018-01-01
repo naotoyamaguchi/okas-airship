@@ -86,8 +86,8 @@ class Services extends Component {
           {/*now this is a row of little images / certs at the bottom of this div*/}
             <div className="service-image-row">
               {/*and a row comes with multiple images*/}
-              <img className="service-certificate-image" src={require("../../assets/Icar_Cert.png")}/>
-              <img className="service-certificate-image" src={require("../../assets/ASE_Cert.png")}/>
+              <img className="service-certificate-icar" src={require("../../assets/Icar_Cert.png")}/>
+              <img className="service-certificate-ase" src={require("../../assets/ASE_Cert.png")}/>
             </div>
           </div>
 
