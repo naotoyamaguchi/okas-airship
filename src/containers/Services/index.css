@@ -41,6 +41,10 @@
   float: right;
 }
 
+.service-image {
+  padding: 1em 1em 0em 0em;
+}
+
 @media only screen and (max-width: 992px){
   .left-service-column, .right-service-column {
     display: inline-block;
