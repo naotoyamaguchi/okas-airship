@@ -41,3 +41,15 @@
   float: right;
 }
 
+@media only screen and (max-width: 992px){
+  .left-service-column, .right-service-column {
+    display: inline-block;
+    float: none;
+    width: 100%;
+  }  
+  .service-certificate-icar, .service-certificate-ase {
+    display: block;
+    margin: auto;
+    width: 20%;
+  }
+}
