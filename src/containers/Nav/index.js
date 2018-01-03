@@ -7,7 +7,9 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="#">
-          <img src={require("../../assets/OkasLOGO.png")} className="d-block align-top" alt="" />
+          <Link to="/">
+            <img src={require("../../assets/OkasLOGO.png")} className="d-block align-top" alt="" />
+          </Link>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
