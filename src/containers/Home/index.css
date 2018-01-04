@@ -21,10 +21,22 @@
 	overflow: hidden;
 }
 
+@media only screen and (max-width: 992px){
+	.home-top {
+		padding: 0;
+	}
+}
+
 .top-text {
 	border: 1px solid red;
 	width: 60%;
 	display: inline-block;
+}
+
+@media only screen and (max-width: 992px){
+	.top-text {
+		width: 100%;
+	}
 }
 
 .top-header {
@@ -47,6 +59,12 @@
 	float: right;
 	height: 190px;
 	padding: 1em;
+}
+
+@media only screen and (max-width: 992px){
+	.top-insurance {
+		float: none;
+	}
 }
 
 .insurance-image {
