@@ -64,6 +64,8 @@
 @media only screen and (max-width: 992px){
 	.top-insurance {
 		float: none;
+		width: 100%;
+		margin-top: 1em;
 	}
 }
 
