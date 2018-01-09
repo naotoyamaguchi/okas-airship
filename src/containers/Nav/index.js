@@ -6,43 +6,43 @@ class Nav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
+        <div className="navbar-brand" href="#">
           <Link to="/">
             <img src={require("../../assets/OkasLOGO.png")} className="d-block align-top" alt="" />
           </Link>
-        </a>
+        </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link">
+              <div className="nav-link">
                 <Link to="/">Home</Link>
                 <span className="sr-only">
                   (current)
                 </span>
-              </a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+              <div className="nav-link">
                 <Link to="/contact">Contact</Link>
-              </a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+              <div className="nav-link">
                 <Link to="/services">Services</Link>
-              </a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link">
+              <div className="nav-link">
                 <Link to="/faq">FAQ</Link>
-              </a>
+              </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled">
+              <div className="nav-link disabled">
                 <Link to="/community">Community</Link>
-              </a>
+              </div>
             </li>
           </ul>
         </div>
