@@ -2,11 +2,11 @@
 	text-align: center;
 	border: 1px solid black;
   color: #2d5fd5;
-  padding: 3%;
 }
 
 .services-title {
   border: 1px solid red;
+  padding: 5% 0 3%;
 }
 
 .App {
