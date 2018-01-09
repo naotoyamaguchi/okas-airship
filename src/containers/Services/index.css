@@ -11,14 +11,12 @@
 
 .App {
   display: flex;
+  padding: 0 10%;
   flex-direction: column;
 }
 
 .services-row {
-  width: 90%;
   border: 1px solid black;
-  margin: 0 auto;
-  padding: 0 10%;
   overflow: hidden;
 }
 
@@ -60,5 +58,3 @@
     padding: 1em 1em 0em 1em;
   }
 }
-
-/*git test*/
