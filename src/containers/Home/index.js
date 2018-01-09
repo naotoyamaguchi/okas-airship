@@ -85,7 +85,7 @@ class Home extends Component {
             </div>
 
             <div className="insurance-button">
-               Find Out More >
+               Find Out More ›
             </div>
           </div>
           
