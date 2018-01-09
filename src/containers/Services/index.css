@@ -11,13 +11,13 @@
 
 .App {
   display: flex;
-  padding: 0 10%;
   flex-direction: column;
 }
 
 .services-row {
   border: 1px solid black;
   overflow: hidden;
+  padding: 0 10%;
 }
 
 .service-certificate-icar {
