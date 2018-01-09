@@ -22,7 +22,7 @@
   text-align: center;
   padding: 0;
   font-size: 0.5em;
-  letter-spacing: 2px;
+  letter-spacing: 0;
   /* NOTE: font-size currently sets the size of the footer.; */
 }
 
@@ -35,6 +35,6 @@
 @media only screen and (max-width: 1200px) {
   .footer {
     width: 100%;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 }
