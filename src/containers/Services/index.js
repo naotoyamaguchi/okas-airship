@@ -101,6 +101,8 @@ class Services extends Component {
 
         </div>
 
+        <hr></hr>
+
         {/*do it once, and this one should be complete too*/}
         {/*aim for mobile too with this page, and always be checking that you're not completely breaking mobile / responsiveness of other pages plz*/}
 
