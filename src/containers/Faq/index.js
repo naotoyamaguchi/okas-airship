@@ -25,9 +25,9 @@ class Faq extends Component {
 
   render() {
     return (
-      <div className="App" style={{background: "beige"}}>
+      <div className="App">
         <div className="faq">
-          <a className="faq-question-link" href="#question-10">Question 10</a>
+          {/*<a className="faq-question-link" href="#question-10">Question 10</a>*/}
           <h1 className="faq-title">Frequently Asked Questions</h1>
           <hr></hr>
           <div id="accordion" role="tablist">
