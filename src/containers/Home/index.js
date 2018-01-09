@@ -65,17 +65,19 @@ class Home extends Component {
 
       <div className="home-top">
           <div className="top-text">
-             <h1 className="top-header">
+             <div className="top-header">
              Welcome to Oka's Auto Body
-             </h1>
+             </div>
              <div className="top-description">
-               At Oka's Auto Body, we know that you will drive home our reputation! Browse our offerings, request an estimate, or visit us in person. We promise to offer the best in workmanship and customer service.
+               At Oka's Auto Body, we know that you will drive home our reputation!
+               <br/>
+               Browse our offerings, request an estimate, or visit us in person. We promise to offer the best in workmanship and customer service.
              </div>
           </div>
           
           <div className="top-insurance">
 
-            <img className="insurance-image" src={require("../../assets/open-book.png")}/>
+            <img className="insurance-image" src={require("../../assets/open-book.jpg")}/>
             
             <div className="insurance-text">
                <h2 className="insurance-header">Know Your Rights!</h2>
