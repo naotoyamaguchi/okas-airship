@@ -1,3 +1,8 @@
-h1 {
-  background-color: red;
+.faq-title {
+  border: 1px solid red;
+  text-align: center;
+}
+
+.faq {
+  padding: 0 10%;
 }
