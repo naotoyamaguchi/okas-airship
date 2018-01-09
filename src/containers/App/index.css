@@ -32,8 +32,8 @@ a.active {
 
 .page-main {
 /*  position: relative;*/
-  max-width: 1100px;
-  margin: 0px auto;
+  max-width: 100%;
+  /*margin: 0px auto;*/
 }
 
 .page-main-inner {
@@ -42,10 +42,22 @@ a.active {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 0px 20px 0px 20px;
 }
 
 .root-container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
+
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+  max-width: 100%;
+}
+
+/*@media only screen and (min-width: 1200px){
+  .container {
+    max-width: 100%;
+  }
+}*/

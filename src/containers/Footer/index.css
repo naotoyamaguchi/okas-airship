@@ -22,13 +22,13 @@
   text-align: center;
   padding: 0;
   font-size: 0.75em;
-  letter-spacing: 0;
+  letter-spacing: 2px;
   /* NOTE: font-size currently sets the size of the footer.; */
 }
 
 @media only screen and (min-width: 1200px) {
   .footer{
-    width: 1200px;
+    width: 100%;
   }
 }
 

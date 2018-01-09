@@ -3,20 +3,22 @@
   margin: 0 auto;
 }
 .carousel-inner{
-  width:95%;
+  width: 80%;
   margin: 0 auto;
-  max-height: 400px !important;
+  max-height: 500px !important;
 }
 
 .carousel, .slide {
-	padding-bottom: 1em;
+	/*padding-bottom: 1em;*/
+	background-color: #ECF2F5;
 	border: 1px solid green;
 }
 
 .home-top {
 	border:3px solid black;
-	padding: 36px;
-	margin-top: 2em;
+	padding: 0 10%;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	letter-spacing: 0;
 	overflow: hidden;
 }
@@ -124,7 +126,7 @@
 	text-align: center;
 	border: 2px solid purple;
 	background-color: #444444;
-	padding-top: 2.5em;
+	padding: 0 10%;
 }
 
 .bottom-header {
@@ -132,10 +134,10 @@
 }
 
 .bottom-media {
-	width: 90%;
+	width: 100%;
 	margin: 1.5em auto 4em;
 	border: 1px solid yellow;
-	height: 350px;
+	height: 500px;
 }
 
 .primary-media, .secondary-media-column {
@@ -144,7 +146,7 @@
 }
 
 .primary-media {
-	width: 65%;
+	width: 60%;
 	height: 100%;
 	float: left;
 	background-color: yellow;

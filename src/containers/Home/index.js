@@ -105,9 +105,9 @@ class Home extends Component {
       <div className="home-bottom">
           <h2 className="bottom-header">Oka's In The News</h2>
           <div className="bottom-media">
-            {/*<div className="primary-media">
-            </div>*/}
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mp00gO6fjJM?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <div className="primary-media">
+            </div>
+            {/*<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Mp00gO6fjJM?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>*/}
             <div className="secondary-media-column">
                <div className="secondary-media" id="media1">
                </div>
