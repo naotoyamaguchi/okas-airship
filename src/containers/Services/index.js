@@ -37,7 +37,7 @@ class Services extends Component {
       elem.style.opacity = 0;
     });
   }
-z
+
  render() {
    return (
       <div className="App">
