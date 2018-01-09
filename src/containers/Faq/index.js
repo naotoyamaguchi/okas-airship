@@ -43,34 +43,6 @@ class Faq extends Component {
               <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
             </ul>
             <ul>
-              <li>If my vehicle's frame is damaged, is it a total loss?</li>
-              <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
-            </ul>
-            <ul>
-              <li>If my vehicle's frame is damaged, is it a total loss?</li>
-              <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
-            </ul>
-            <ul>
-              <li>If my vehicle's frame is damaged, is it a total loss?</li>
-              <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
-            </ul>
-            <ul>
-              <li>If my vehicle's frame is damaged, is it a total loss?</li>
-              <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
-            </ul>
-            <ul>
-              <li>If my vehicle's frame is damaged, is it a total loss?</li>
-              <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
-            </ul>
-            <ul>
-              <li>If my vehicle's frame is damaged, is it a total loss?</li>
-              <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
-            </ul>
-            <ul>
-              <li>If my vehicle's frame is damaged, is it a total loss?</li>
-              <li>No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced. </li>
-            </ul>
-            <ul>
               <li>How long will my repair take?</li>
               <li><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nesciunt ex quaerat eius blanditiis voluptatem quibusdam eos fugit minus officiis esse, nisi, omnis, optio quos eveniet accusamus incidunt voluptates laboriosam.</div>
               <div>Tenetur accusamus, omnis quasi ad laudantium iusto aut, aperiam quia nam rerum cupiditate doloremque qui iure esse quam, labore unde. Explicabo doloremque omnis aspernatur ratione, fugit suscipit consequatur eum provident.</div>
