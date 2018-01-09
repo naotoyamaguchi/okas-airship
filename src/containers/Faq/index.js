@@ -59,7 +59,7 @@ class Faq extends Component {
               </div>
               <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
-                  As long as it fucking takes.
+                  No. A car is a total loss only when the price of repairs exceeds the insurance company's determined value of your vehicle. Nowadays, most cars are built using unibody (frame and body as one) construction. Our highly skilled technicians, with the aid of our state-of the-art computer measuring system , can return your vehicle to its original factory specifications. If it is determined that the frame section is bent beyond repair, that section can simply be replaced.
                 </div>
               </div>
             </div>
