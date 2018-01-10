@@ -24,7 +24,7 @@ class Community extends Component {
 
   render() {
     return (
-      <div className="App" style={{background: "lime"}}>
+      <div className="App">
         <div className="community">
           <h1>Oka's in the community..</h1>
             <h1>2017 Community</h1>
