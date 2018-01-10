@@ -107,7 +107,6 @@ class Services extends Component {
         {/*aim for mobile too with this page, and always be checking that you're not completely breaking mobile / responsiveness of other pages plz*/}
 
         <div className="services-row">
-
           <div className="left-service-column">
             <h2 className="service-name">Paint Shop</h2>
             <div className="service-description">
@@ -126,9 +125,9 @@ class Services extends Component {
             <br></br>
             <img className="service-image" src={require("../../assets/service-image.jpg")}/>
           </div>
-
         </div>
-
+        <div className="bumper">
+        </div>
 
        <div
          className="body"
