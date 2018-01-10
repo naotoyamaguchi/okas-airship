@@ -41,7 +41,7 @@ class Nav extends Component {
             </li>
             <li className="nav-item">
               <div className="nav-link disabled">
-                <Link to="/community">Estimates</Link>
+                <Link to="/estimates">Estimates</Link>
               </div>
             </li>
           </ul>

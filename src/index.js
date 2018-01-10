@@ -10,7 +10,7 @@ import App from "./containers/App";
 import Home from "./containers/Home";
 import Contact from "./containers/Contact";
 import Faq from "./containers/Faq";
-import Community from "./containers/Community";
+import Estimates from "./containers/Estimates";
 import Nav from "./containers/Nav";
 import Footer from "./containers/Footer";
 import Services from './containers/Services';
@@ -24,7 +24,7 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/faq" component={Faq} />
-      <Route exact path="/community" component={Community} />
+      <Route exact path="/estimates" component={Estimates} />
       <Route exact path="/services" component={Services} />
     </App>
     
