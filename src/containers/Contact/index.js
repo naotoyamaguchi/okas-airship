@@ -32,11 +32,54 @@ class Contact extends Component {
             Contact Us
           </h1>
         </div>
-        <div className="hr"><hr/></div>
+        <hr/>
         <div className="contact-body">
-          <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum alias dolore illo dolorum eum, enim perspiciatis doloribus est recusandae quo quibusdam consequatur hic, quos animi praesentium ipsum rem cumque. Maiores?</span>
-          <span>Atque adipisci pariatur magni, eligendi, eaque in asperiores eius laboriosam iure ipsa nostrum obcaecati autem placeat blanditiis dicta! Ab non harum rem dolor ipsum et necessitatibus! Repudiandae, dolores maiores explicabo!</span>
-          <span>Suscipit illo ratione blanditiis in odio cupiditate repudiandae maxime nostrum tempore eaque odit delectus, sunt nobis, ipsa beatae asperiores unde labore natus praesentium maiores vitae at exercitationem consequuntur deserunt! Omnis!</span></p>
+          <div className="contact-form">
+            <h3 className="body-subheader">Send Us a Message</h3>
+            Name
+            <br/>
+            Email
+            <br/>
+            Phone
+            <br/>
+            Do you prefer being contacted by email or phone?
+            <br/>
+            Message          
+          </div>
+          <div className="oka-contact-info">
+            <h3 className="body-subheader">Contact Info</h3>
+            Address:
+            <br/>
+            94-173 Leokane St.
+            <br/>
+            Waipahu, HI 96897
+            <br/>
+            <br/>
+            Phone:
+            <br/>
+            808-677-5474
+            <br/>
+            <br/>
+            Hours:
+            <br/>
+            7:30 – 4:30 M–F
+          </div>
+        </div>
+        <hr/>
+        <div class="directions">
+          <h3 className="body-subheader">Directions</h3>
+          From the east:
+          <br/>
+          blah blah blah
+          <br/>
+          blah blah blah
+          <br/>
+          <br/>
+          From the west:
+          <br/>
+          blah blah blah
+          <br/>
+          blah blah blah
         </div>
       </div>
     );

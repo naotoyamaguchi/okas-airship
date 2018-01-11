@@ -1,14 +1,22 @@
-.contact-title {
-  text-align: center;
-  padding: 4% 0% 2%;
-  color: #3D5AAA;
+.contact {
+  padding: 0 10%;
 }
 
-.hr {
-  align-content: center;
-  padding: 0 10%;
+.contact-title {
+  text-align: center;
+  padding: 4% 0 0 0;
+  color: #3D5AAA !important;
+  border: 1px solid red;
 }
 
 .contact-body {
-  padding: 0 10%;
+  border: 1px solid red;
+}
+
+.contact-form {
+  border: 1px dotted blue;
+}
+
+.oka-contact-info {
+  border: 1px dotted yellow;
 }
