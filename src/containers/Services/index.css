@@ -40,12 +40,17 @@
 }
 
 .service-image {
-  padding: 1em 1em 0em 0em;
+  padding: 1em 0em 0em 0em;
 }
 
 .bumper {
   height: 4em;
   width: 100%;
+}
+
+.hr {
+  align-content: center;
+  padding: 0 10%;
 }
 
 @media only screen and (max-width: 992px){

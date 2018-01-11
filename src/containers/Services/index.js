@@ -45,22 +45,7 @@ class Services extends Component {
           <h1 className="services-title">Services</h1>
         </div>
 
-        <hr/>
-        {/*****************************************/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*BORDERS BORDERS BORDERS BORDERS BORDERS*/}
-        {/*****************************************/}
-
-
+        <div className="hr"><hr/></div>
 
         {/*service row is the big div for each service*/}
         <div className="services-row">
@@ -101,7 +86,7 @@ class Services extends Component {
 
         </div>
 
-        <hr></hr>
+        <div className="hr"><hr/></div>
 
         {/*do it once, and this one should be complete too*/}
         {/*aim for mobile too with this page, and always be checking that you're not completely breaking mobile / responsiveness of other pages plz*/}
