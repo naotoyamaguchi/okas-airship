@@ -32,6 +32,10 @@
   border: 1px solid red;
 }
 
+.directions-subheader {
+  font-weight: bold;
+}
+
 .bumper {
   height: 4em;
   width: 100%;

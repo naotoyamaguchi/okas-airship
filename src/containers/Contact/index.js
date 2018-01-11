@@ -63,9 +63,9 @@ class Contact extends Component {
         <hr/>
         <div className="directions">
           <h3 className="body-subheader">Directions</h3>
-          From the east:<br/>
+          <div className="directions-subheader">From the East:</div>
           Head west<br/><br/>
-          From the west:<br/>
+          <div className="directions-subheader">From the West:</div>
           Head east
         </div>
         <div className="bumper"/>
