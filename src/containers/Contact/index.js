@@ -36,51 +36,39 @@ class Contact extends Component {
         <div className="contact-body">
           <div className="contact-form">
             <h3 className="body-subheader">Send Us a Message</h3>
-            Name
-            <br/>
-            Email
-            <br/>
-            Phone
-            <br/>
-            Do you prefer being contacted by email or phone?
-            <br/>
-            Message          
+            Name:<br/>
+            <input type="text" name="name"/><br/>
+            Email:<br/>
+            <input type="text" name="email"/><br/>
+            Phone:<br/>
+            <input type="text" name="phone"/><br/>
+            What is your preferred method of contact?<br/>
+            <input type="radio" name="contact-pref"/> Email<br/>
+            <input type="radio" name="contact-pref"/> Phone<br/>
+            Message:<br/>
+            <input type="text" name="message"/><br/>
+            <button className="submit">Submit ›</button>
           </div>
           <div className="oka-contact-info">
             <h3 className="body-subheader">Contact Info</h3>
-            Address:
-            <br/>
-            94-173 Leokane St.
-            <br/>
-            Waipahu, HI 96897
-            <br/>
-            <br/>
-            Phone:
-            <br/>
-            808-677-5474
-            <br/>
-            <br/>
-            Hours:
-            <br/>
+            Address:<br/>
+            94-173 Leokane St.<br/>
+            Waipahu, HI 96897<br/><br/>
+            Phone:<br/>
+            808-677-5474<br/><br/>
+            Hours:<br/>
             7:30 – 4:30 M–F
           </div>
         </div>
         <hr/>
-        <div class="directions">
+        <div className="directions">
           <h3 className="body-subheader">Directions</h3>
-          From the east:
-          <br/>
-          blah blah blah
-          <br/>
-          blah blah blah
-          <br/>
-          <br/>
-          From the west:
-          <br/>
-          blah blah blah
-          <br/>
-          blah blah blah
+          From the east:<br/>
+          Head west<br/><br/>
+          From the west:<br/>
+          Head east
         </div>
+        <div className="bumper"/>
       </div>
     );
   }

@@ -10,13 +10,29 @@
 }
 
 .contact-body {
+  display: flex;
   border: 1px solid red;
+}
+
+.body-subheader {
+  color: #3D5AAA !important;
 }
 
 .contact-form {
   border: 1px dotted blue;
+  margin: 0 10% 0 0;
 }
 
 .oka-contact-info {
   border: 1px dotted yellow;
+  float: right;
+}
+
+.directions {
+  border: 1px solid red;
+}
+
+.bumper {
+  height: 4em;
+  width: 100%;
 }

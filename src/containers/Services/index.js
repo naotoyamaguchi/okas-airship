@@ -111,9 +111,7 @@ class Services extends Component {
             <img className="service-image" src={require("../../assets/service-image.jpg")}/>
           </div>
         </div>
-        <div className="bumper">
-        </div>
-
+        <div className="bumper"/>
        <div
          className="body"
          dangerouslySetInnerHTML={{
