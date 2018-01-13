@@ -64,12 +64,15 @@ class Contact extends Component {
             </div>
           </div>
           <hr/>
-          <div className="directions">
-            <h3 className="body-subheader">Directions</h3>
-            <div className="directions-subheader">From the East:</div>
-            Head west<br/><br/>
-            <div className="directions-subheader">From the West:</div>
-            Head east
+          <div className="directions-body">
+            <div className="directions">
+              <h3 className="body-subheader">Directions</h3>
+              <div className="directions-subheader">From the East:</div>
+              Head west<br/><br/>
+              <div className="directions-subheader">From the West:</div>
+              Head east
+            </div>
+            <div className="map"/>
           </div>
           <div className="bumper"/>
         </div>
