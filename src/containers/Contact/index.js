@@ -38,11 +38,11 @@ class Contact extends Component {
             <div className="contact-form">
               <h3 className="body-subheader">Send Us a Message</h3>
               Name:<br/>
-              <input type="text" className="name" size="45"/><br/><br/>
+              <input type="text" className="name"/><br/><br/>
               Email:<br/>
-              <input type="text" className="email"size="45"/><br/><br/>
+              <input type="text" className="email"/><br/><br/>
               Phone:<br/>
-              <input type="text" className="phone"size="45"/><br/><br/>
+              <input type="text" className="phone"/><br/><br/>
               What is your preferred method of contact?<br/>
                 <select>
                 <option value="email">Email</option>

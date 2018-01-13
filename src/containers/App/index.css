@@ -56,9 +56,3 @@ a.active {
   margin: 0 !important;
   max-width: 100%;
 }
-
-/*@media only screen and (min-width: 1200px){
-  .container {
-    max-width: 100%;
-  }
-}*/
