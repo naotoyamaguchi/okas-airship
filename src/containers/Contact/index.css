@@ -46,6 +46,10 @@
   font-weight: bold;
 }
 
+.directions {
+  margin-right: auto;
+}
+
 .map {
   border: 1px dotted yellow;
   height: 300px;
