@@ -23,6 +23,15 @@
   margin: 0 10% 0 0;
 }
 
+.name, .email, .phone {
+  height: 50px;
+}
+
+.message {
+  height: 150px;
+  width: 650px;
+}
+
 .oka-contact-info {
   border: 1px dotted yellow;
   float: right;
