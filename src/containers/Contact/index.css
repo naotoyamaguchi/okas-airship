@@ -48,6 +48,9 @@
 
 .map {
   border: 1px dotted yellow;
+  height: 300px;
+  width: 450px;
+  background-color: #8F9A99
 }
 
 .bumper {
