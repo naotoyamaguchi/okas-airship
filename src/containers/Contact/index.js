@@ -49,7 +49,7 @@ class Contact extends Component {
                 <option value="phone">Phone</option>
                 </select><br/><br/>
               Message:<br/>
-              <input type="text" className="message"/><br/><br/>
+              <textarea type="text" className="message"/><br/><br/>
               <button className="submit">Submit ›</button>
             </div>
             <div className="oka-contact-info">

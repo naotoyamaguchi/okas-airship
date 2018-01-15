@@ -25,11 +25,14 @@
 
 .name, .email, .phone {
   height: 50px;
+  width: 80%;
 }
 
 .message {
   height: 150px;
   width: 650px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .oka-contact-info {
