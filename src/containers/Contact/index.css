@@ -62,11 +62,15 @@
 }
 
 @media only screen and (max-width: 992px){
-  .message {
+  .name, .email, .phone, .message, .map {
     width: 100%;
   }
 
   .contact-form {
     margin: 0;
+  }
+
+  .contact-body, .directions-body {
+    flex-direction: column;
   }
 }

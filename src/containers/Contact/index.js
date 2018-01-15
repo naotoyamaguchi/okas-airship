@@ -70,7 +70,7 @@ class Contact extends Component {
               <div className="directions-subheader">From the East:</div>
               Head west<br/><br/>
               <div className="directions-subheader">From the West:</div>
-              Head east
+              Head east<br/><br/>
             </div>
             <div className="map"/>
           </div>
