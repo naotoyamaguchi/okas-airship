@@ -62,4 +62,11 @@
 }
 
 @media only screen and (max-width: 992px){
+  .message {
+    width: 100%;
+  }
+
+  .contact-form {
+    margin: 0;
+  }
 }
