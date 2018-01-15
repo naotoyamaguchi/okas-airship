@@ -34,7 +34,6 @@
 
 .oka-contact-info {
   border: 1px dotted yellow;
-  float: right;
 }
 
 .directions-body {
@@ -63,8 +62,7 @@
 }
 
 @media only screen and (max-width: 992px){
-  .oka-contact-info {
-    float: none;
+  .contact-body {
+    flex-wrap: wrap;
   }
 }
-
