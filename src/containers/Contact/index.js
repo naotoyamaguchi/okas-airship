@@ -44,7 +44,7 @@ class Contact extends Component {
               Phone:<br/>
               <input type="text" className="phone"/><br/><br/>
               What is your preferred method of contact?<br/>
-                <select>
+                <select className="select">
                 <option value="email">Email</option>
                 <option value="phone">Phone</option>
                 </select><br/><br/>
