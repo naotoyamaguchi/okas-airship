@@ -44,6 +44,12 @@
   word-break: break-all;
 }
 
+.submit {
+  background-color: #2D5FA5;
+  color: white;
+  border: 1px solid #2D5FA5;
+}
+
 .oka-contact-info {
   border: 1px dotted yellow;
 }
