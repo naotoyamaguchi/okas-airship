@@ -34,7 +34,8 @@
 
 @media only screen and (max-width: 992px){
 	.top-text {
-		width: 100%;
+		width: 80%;
+		margin: 0 10%;
 	}
 }
 
@@ -51,6 +52,21 @@
 	/*line-height: 19px;*/
 }
 
+@media only screen and (max-width: 992px){
+	.top-header {
+		color: #3D5AAA !important;
+		/*font-weight: 200 !important;*/
+		letter-spacing: 0;
+		font-size: 1.5em !important;
+		padding-bottom: .5em
+	}	
+	.top-description {
+		font-size: 1.2em;
+	/*line-height: 19px;*/
+	}
+}
+
+
 .top-insurance {
 	background-color: #3D5AAA;
 	color: white;
@@ -62,8 +78,8 @@
 @media only screen and (max-width: 992px){
 	.top-insurance {
 		float: none;
-		width: 100%;
-		margin-top: 1em;
+		width: 80%;
+		margin: 1em 10% 0;
 	}
 }
 
@@ -84,6 +100,20 @@
 	font-size: 1.25em;
 }
 
+@media only screen and (max-width: 1024px){
+	.insurance-button {
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    margin-top: 17px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 1em;
+	}
+}
+
+
+
 .insurance-text {
 	width: 65%;
 	margin-left: 0.9em;
@@ -92,9 +122,9 @@
 }
 
 .insurance-header {
-	font-size: 1.5em !important;
-	color: white !important;
-	font-weight: bold !important;
+	font-size: 1.4em;
+	color: white;
+	font-weight: bold;
 }
 
 .insurance-description {

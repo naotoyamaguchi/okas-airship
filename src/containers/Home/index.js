@@ -80,7 +80,7 @@ class Home extends Component {
             <img className="insurance-image" src={require("../../assets/open-book.jpg")}/>
             
             <div className="insurance-text">
-               <h2 className="insurance-header">Know Your Rights!</h2>
+               <div className="insurance-header">Know Your Rights!</div>
                <div className="insurance-description">
                   Did you know you have the right to choose your provider for insurance claims?
                </div>
