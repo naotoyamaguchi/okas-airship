@@ -8,6 +8,7 @@ import Estimates from "./containers/Estimates";
 import Services from './containers/Services';
 import Appointment from './containers/Appointment';
 import "./index.css";
+import "./borders.css";
 import { BrowserRouter, Route } from "react-router-dom";
 
 ReactDOM.render(

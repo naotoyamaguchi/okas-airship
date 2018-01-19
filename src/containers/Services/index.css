@@ -1,11 +1,9 @@
 .services-header {
 	text-align: center;
-	border: 1px solid black;
   color: #2d5fd5;
 }
 
 .services-title {
-  border: 1px solid red;
   padding: 4% 0 2%;
 }
 
@@ -15,7 +13,6 @@
 }
 
 .services-row {
-  border: 1px solid black;
   overflow: hidden;
   padding: 0 10%;
 }

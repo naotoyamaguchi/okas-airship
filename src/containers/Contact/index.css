@@ -6,12 +6,10 @@
   text-align: center;
   padding: 4% 0 0 0;
   color: #3D5AAA !important;
-  border: 1px solid red;
 }
 
 .contact-body {
   display: flex;
-  border: 1px solid red;
 }
 
 .body-subheader {
@@ -19,7 +17,6 @@
 }
 
 .contact-form {
-  border: 1px dotted blue;
   margin: 0 10% 0 0;
 }
 
@@ -56,13 +53,8 @@
   display: none;
 }
 
-.oka-contact-info {
-  border: 1px dotted yellow;
-}
-
 .directions-body {
   display: flex;
-  border: 1px solid red;
 }
 
 .directions-subheader {
