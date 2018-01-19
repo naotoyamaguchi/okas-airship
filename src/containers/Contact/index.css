@@ -52,7 +52,7 @@
   border-radius: 4px;
 }
 
-.hidden-hr {
+.mobile-hr {
   display: none;
 }
 
@@ -90,30 +90,31 @@
     width: 100%;
   }
 
-  .contact-form {
-    margin: 0;
-  }
-
-  .select {
-    width: 50%;
-  }
-
   .contact-body {
     flex-direction: column-reverse;
   }
 
-  .directions-body {
-    flex-direction: column;
+  .contact-form {
+    margin: 0;
   }
 
-  .hidden-hr {
-    display: static;
+  .mobile-hr {
+    display: block;
+  }
+  
+  .select {
+    width: 50%;
   }
 
   .submit {
+    font-size: 0.8em;
     width: 100%;
     margin-bottom: 1em;
     padding: 0.5em 2em;
+  }
+  
+  .directions-body {
+    flex-direction: column;
   }
 
 
