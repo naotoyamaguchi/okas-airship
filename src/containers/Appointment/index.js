@@ -18,9 +18,6 @@ class Appointment extends Component {
       elem.style.transition = "1s ease";
       elem.style.opacity = 1;
     });
-
-    var widgetBadge = document.getElementsByClassName("badge");
-    console.log(widgetBadge);
   }
 
   componentWillUnmount(){

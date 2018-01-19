@@ -16,34 +16,44 @@ class Nav extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item active">
-              <div className="nav-link">
-                <Link to="/">Home</Link>
-                <span className="sr-only">
-                  (current)
-                </span>
-              </div>
-            </li>
-            <li className="nav-item">
-              <div className="nav-link">
-                <Link to="/contact">Contact</Link>
-              </div>
-            </li>
-            <li className="nav-item">
-              <div className="nav-link">
-                <Link to="/services">Services</Link>
-              </div>
-            </li>
-            <li className="nav-item">
-              <div className="nav-link">
-                <Link to="/faq">FAQ</Link>
-              </div>
-            </li>
-            <li className="nav-item">
-              <div className="nav-link disabled">
-                <Link to="/estimates">Estimates</Link>
-              </div>
-            </li>
+            <Link to="/">
+              <li className="nav-item">
+                <div className="nav-link">
+                  <span className="nav-anchor">Home</span>
+                  <span className="sr-only">
+                    (current)
+                  </span>
+                </div>
+              </li>
+            </Link>
+            <Link to="/contact">
+              <li className="nav-item">
+                <div className="nav-link">
+                  <span className="nav-anchor">Contact</span>
+                </div>
+              </li>
+            </Link>
+            <Link to="/services">
+              <li className="nav-item">
+                <div className="nav-link">
+                  <span className="nav-anchor">Services</span>
+                </div>
+              </li>
+            </Link>
+            <Link to="/faq">
+              <li className="nav-item">
+                <div className="nav-link">
+                  <span className="nav-anchor">FAQ</span>
+                </div>
+              </li>
+            </Link>
+            <Link to="/estimates">
+              <li className="nav-item">
+                <div className="nav-link">
+                  <span className="nav-anchor">Estimates</span>
+                </div>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="header-info">
