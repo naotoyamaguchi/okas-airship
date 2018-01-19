@@ -49,7 +49,7 @@ class Contact extends Component {
                 <option value="phone">Phone</option>
                 </select><br/><br/>
               Message:<br/>
-              <textarea type="text" className="message"/><br/><br/>
+              <textarea type="text" className="message"/><br/>
               <button className="submit">Submit ›</button>
             </div>
             <div className="oka-contact-info">
@@ -63,6 +63,7 @@ class Contact extends Component {
               7:30 – 4:30 M–F
             </div>
           </div>
+            <hr className ="hidden-hr"/>
           <hr/>
           <div className="directions-body">
             <div className="directions">

@@ -52,6 +52,10 @@
   border-radius: 4px;
 }
 
+.hidden-hr {
+  display: none;
+}
+
 .oka-contact-info {
   border: 1px dotted yellow;
 }
@@ -90,11 +94,23 @@
     margin: 0;
   }
 
-  .contact-body, .directions-body {
+  .contact-body {
+    flex-direction: column-reverse;
+  }
+
+  .directions-body {
     flex-direction: column;
   }
 
-  .submit {
-    margin: 0 auto;
+  .hidden-hr {
+    display: static;
   }
+
+  .submit {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em 2em;
+  }
+
+
 }
