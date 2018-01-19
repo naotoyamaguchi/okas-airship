@@ -49,7 +49,7 @@
   color: white;
   padding: 1em 3em;
   border: 1px solid #2D5FA5;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 .mobile-hr {
@@ -101,7 +101,7 @@
   .mobile-hr {
     display: block;
   }
-  
+
   .select {
     width: 50%;
   }
