@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 
@@ -34,15 +34,8 @@ class Estimates extends Component {
           </div>
           <div className="hr"><hr/></div>
           <div className="estimates-body">
-            <h1>2017 Community</h1>
-            <p>Oka's in the community this year Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla eveniet placeat esse! Dolorem nemo tempora eos maxime explicabo assumenda voluptas necessitatibus omnis, odit, inventore dignissimos veniam perferendis incidunt, alias quidem!</p>
-            <h1>2016 Community</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero vitae, maiores beatae. Est voluptates cum adipisci magni vel vitae totam quas odio ut, commodi, quia illo eligendi quibusdam, optio. Unde.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis neque explicabo vitae quisquam corporis fugit nam, velit ex, placeat minima porro saepe impedit commodi magnam! Unde amet at totam sequi.</p>
-            <h1>2015 Community</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quisquam beatae eos. Porro explicabo asperiores deleniti placeat illo similique itaque, reiciendis dolores illum perferendis maiores mollitia eaque ut est labore.</p>
-            <p>Oka's in the community this year Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla eveniet placeat esse! Dolorem nemo tempora eos maxime explicabo assumenda voluptas necessitatibus omnis, odit, inventore dignissimos veniam perferendis incidunt, alias quidem!</p>
-            <p>Oka's in the community this year Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla eveniet placeat esse! Dolorem nemo tempora eos maxime explicabo assumenda voluptas necessitatibus omnis, odit, inventore dignissimos veniam perferendis incidunt, alias quidem!</p>
+            <h1>Need a Quote?</h1>
+            <p>If you're unsure of where to start, contact us for an appointment and we can arrange a free quote for whatever repair you need! Either message us for questions, or set up an appointment using our appointment system <Link to="/appointment">here</Link>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor, elit at sagittis laoreet, urna risus dapibus nisl, et vehicula mauris dolor non felis. Phasellus quam lectus, auctor at nisi id, aliquam convallis mauris. Donec quis mauris nisl. Mauris a tempus eros. Sed vel maximus purus. Praesent tempus odio a diam posuere, nec ultricies elit mattis. Nullam vitae leo sed quam finibus mattis ac mattis nisl. Donec sit amet magna libero. Sed non semper ipsum, at porta nisl. Aenean rutrum et nibh nec condimentum. Nam ligula nibh, mattis in nulla luctus, cursus pellentesque magna. In a est quis purus euismod egestas nec eget dui.</p>
           </div>
         </div>
       </div>     

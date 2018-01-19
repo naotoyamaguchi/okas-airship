@@ -14,6 +14,7 @@ import Estimates from "./containers/Estimates";
 import Nav from "./containers/Nav";
 import Footer from "./containers/Footer";
 import Services from './containers/Services';
+import Appointment from './containers/Appointment';
 import "./index.css";
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -26,6 +27,7 @@ ReactDOM.render(
       <Route exact path="/faq" component={Faq} />
       <Route exact path="/estimates" component={Estimates} />
       <Route exact path="/services" component={Services} />
+      <Route exact path="/appointment" component={Appointment} />
     </App>
     
   </BrowserRouter>,
