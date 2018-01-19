@@ -49,9 +49,10 @@ class Contact extends Component {
                 <option value="phone">Phone</option>
                 </select><br/><br/>
               Message:<br/>
-              <textarea type="text" className="message"/><br/><br/>
+              <textarea type="text" className="message"/><br/>
               <button className="submit">Submit ›</button>
             </div>
+            <hr className ="mobile-hr"/>
             <div className="oka-contact-info">
               <h3 className="body-subheader">Contact Info</h3>
               Address:<br/>
