@@ -33,7 +33,7 @@ class Appointment extends Component {
     return (
       <div className="App">
           <div className="appointment">
-            <h1>Easily book an appointment with us here!</h1>
+            <h1 className="appointment-title">Easily book an appointment with us here!</h1>
             <p>Quick steps to booking an appointment with us! We do appointments via phone as well!</p>
           </div>
           <div className="calendly-inline-widget" data-url="https://calendly.com/naotoy/15min">
