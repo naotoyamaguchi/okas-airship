@@ -48,22 +48,22 @@ class Faq extends Component {
   render() {
     console.log(this.state);
     var accordianCard = this.state.faqs.map(function(faq, index){
-                      return <div className="card" key={index}>
-                        <div className="card-header" role="tab" id="headingOne">
-                          <h5 className="mb-0">
-                            <a data-toggle="collapse" href={"#"+faq.id} role="button" aria-expanded="true" aria-controls={faq.id}>
-                              {faq.question}
-                            </a>
-                          </h5>
-                        </div>
+      return <div className="card" key={index}>
+        <div className="card-header" role="tab" id="headingOne">
+          <h5 className="mb-0">
+            <a data-toggle="collapse" href={"#"+faq.id} role="button" aria-expanded="true" aria-controls={faq.id}>
+              {faq.question}
+            </a>
+          </h5>
+        </div>
 
-                        <div id={faq.id} className="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                          <div className="card-body">
-                            {faq.answer}
-                          </div>
-                        </div>
-                      </div>;
-                    })
+        <div id={faq.id} className="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+          <div className="card-body">
+            {faq.answer}
+          </div>
+        </div>
+      </div>;
+    })
     return (
       <div className="App">
         <div className="faq">
@@ -75,7 +75,8 @@ class Faq extends Component {
           <div id="accordion" role="tablist">
             {accordianCard}
           </div>
-        </div>        
+        </div>
+        <div className="bumper"/>        
       </div>
     );
   }
