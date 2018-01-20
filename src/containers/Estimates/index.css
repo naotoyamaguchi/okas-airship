@@ -1,12 +1,16 @@
 .estimates-title {
   text-align: center;
   padding: 4% 0% 2%;
-  color: #3D5AAA;
+  color: #3D5AAA !important;
 }
 
 .hr {
   align-content: center;
   padding: 0 10%;
+}
+
+.subheader {
+  color: #3D5AAA !important;
 }
 
 .estimates-body {

@@ -1,15 +1,19 @@
 .services-header {
 	text-align: center;
-  color: #2d5fd5;
 }
 
 .services-title {
   padding: 4% 0 2%;
+  color: #3D5AAA !important;
 }
 
 .App {
   display: flex;
   flex-direction: column;
+}
+
+.service-name {
+  color: #3D5AAA !important;
 }
 
 .services-row {
