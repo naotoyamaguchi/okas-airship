@@ -100,6 +100,10 @@
 	font-size: 1.25em;
 }
 
+.insurance-button:hover {
+	background-color: red;
+}
+
 @media only screen and (max-width: 1024px){
 	.insurance-button {
     text-align: center;
