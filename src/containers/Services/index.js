@@ -42,7 +42,7 @@ class Services extends Component {
    return (
       <div className="App">
         <div className="services-header">
-          <h1 className="services-title">Services</h1>
+          <h1 className="header-title">Services</h1>
         </div>
 
         <div className="hr"><hr/></div>
