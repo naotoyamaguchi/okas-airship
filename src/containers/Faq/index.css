@@ -7,3 +7,8 @@
 .faq {
   padding: 0 10%;
 }
+
+h5 > a {
+	/*color of faq questions*/
+	color: #3d5aaa;
+}
