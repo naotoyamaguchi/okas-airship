@@ -44,7 +44,7 @@ class Home extends Component {
         <div id="carouselControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="d-block w-100" src={require("../../assets/stock-carousel-photo.jpeg")} alt="First slide"/>
+              <img className="d-block w-100" src={require("../../assets/employee-photo.jpg")} alt="First slide"/>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" src={require("../../assets/stock-carousel-photo.jpeg")} alt="Second slide"/>

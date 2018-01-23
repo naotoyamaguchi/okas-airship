@@ -73,6 +73,7 @@
 	width: 28%;
 	float: right;
 	padding: 22px 27px 27px;
+	border-radius: 5px;
 }
 
 @media only screen and (max-width: 992px){
@@ -98,10 +99,13 @@
 	border: 1px solid white;
 	border-radius: 2px;
 	font-size: 1.25em;
+	transition: 0.25s ease;
 }
 
 .insurance-button:hover {
-	background-color: red;
+	background-color: white;
+	color: #3f51b5;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px){
