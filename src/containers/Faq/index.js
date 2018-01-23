@@ -68,10 +68,10 @@ class Faq extends Component {
       <div className="App">
         <div className="faq">
           <div className="faq-header">
-            <h1 className="faq-title">Frequently Asked Questions
+            <h1 className="header-title">Frequently Asked Questions
             </h1>
           </div>
-          <hr></hr>
+          <div className="hr"><hr/></div>
           <div id="accordion" role="tablist">
             {accordianCard}
           </div>

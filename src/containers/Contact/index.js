@@ -28,12 +28,12 @@ class Contact extends Component {
       <div className="App">
         <div className="contact">
           <div className="contact-header">
-            <h1 className="contact-title">
+            <h1 className="header-title">
               {/*<Link to="/appointment">Make an Appointment!</Link>*/}
               Contact Us
             </h1>
           </div>
-          <hr/>
+          <div className="hr"><hr/></div>
           <div className="contact-body">
             <div className="contact-form">
               <h3 className="body-subheader">Send Us a Message</h3>

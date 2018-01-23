@@ -6,3 +6,13 @@ body {
 	max-width: 1680px;
 	margin: 0 auto;
 }
+
+.header-title {
+	text-align: center;
+  padding: 2em 0 1.5em;
+  color: #3D5AAA !important;
+}
+
+.hr {
+	padding-bottom: 1em;
+}

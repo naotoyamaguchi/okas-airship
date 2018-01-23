@@ -28,7 +28,7 @@ class Estimates extends Component {
       <div className="App">
         <div className="estimates">
           <div className="estimates-header">
-            <h1 className="estimates-title">
+            <h1 className="header-title">
               Estimates
             </h1>
           </div>
