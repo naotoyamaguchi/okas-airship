@@ -71,7 +71,7 @@ class Faq extends Component {
             <h1 className="header-title">Frequently Asked Questions
             </h1>
           </div>
-          <div className="hr"><hr/></div>
+          <hr/>
           <div id="accordion" role="tablist">
             {accordianCard}
           </div>

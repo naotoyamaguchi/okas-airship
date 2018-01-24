@@ -33,7 +33,7 @@ class Contact extends Component {
               Contact Us
             </h1>
           </div>
-          <div className="hr"><hr/></div>
+          <hr/>
           <div className="contact-body">
             <div className="contact-form">
               <h3 className="body-subheader">Send Us a Message</h3>
@@ -75,7 +75,6 @@ class Contact extends Component {
             </div>
             <div className="map"/>
           </div>
-          <div className="bumper"/>
         </div>
       </div>
     );
