@@ -38,6 +38,7 @@ class Estimates extends Component {
             <p>If you're unsure of where to start, contact us for an appointment and we can arrange a free quote for whatever repair you need! Either message us for questions, or set up an appointment using our appointment system <Link to="/appointment">here</Link>.</p>
           </div>
         </div>
+        <div className="bumper"></div>
       </div>     
     );
   }
