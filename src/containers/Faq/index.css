@@ -12,3 +12,28 @@ h5 > a {
 	/*color of faq questions*/
 	color: #3d5aaa;
 }
+
+/*vvvvvvvvvvvvvvvv  KELLI'S EDITS  vvvvvvvvvvvvvvv*/
+.card{
+  border: 0;
+  border-radius: 0;
+}
+
+.card-header{
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.card-header h5{
+  height: auto;
+  width: 100%;
+}
+
+.card-header h5 a{
+  padding: .75rem 1.25rem;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+/*^^^^^^^^^^^^^^^^^^ KELLI'S EDITS ^^^^^^^^^^^^^^^^^*/
