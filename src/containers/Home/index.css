@@ -21,22 +21,9 @@
 	overflow: hidden;
 }
 
-@media only screen and (max-width: 992px){
-	.home-top {
-		padding: 0;
-	}
-}
-
 .top-text {
 	width: 62%;
 	display: inline-block;
-}
-
-@media only screen and (max-width: 992px){
-	.top-text {
-		width: 80%;
-		margin: 0 10%;
-	}
 }
 
 .top-header {
@@ -85,20 +72,6 @@
 	cursor: pointer;
 }
 
-@media only screen and (max-width: 1024px){
-	.insurance-button {
-    text-align: center;
-    width: 100%;
-    padding: 3px;
-    margin-top: 17px;
-    border: 1px solid white;
-    border-radius: 2px;
-    font-size: 1em;
-	}
-}
-
-
-
 .insurance-text {
 	width: 65%;
 	margin-left: 0.9em;
@@ -127,9 +100,9 @@
 	/*padding-bottom: 1em;*/
 }
 
-.certification-bar{
-	/*border: 1px solid black;*/
-}
+/*.certification-bar{
+	border: 1px solid black;
+}*/
 
 .certification-image {
 	height: 4em;
@@ -197,14 +170,18 @@
 }*/
 
 @media only screen and (max-width: 992px){
+	.home-top {
+		padding: 0;
+	}
+	.top-text {
+		width: 80%;
+		margin: 0 10%;
+	}
 	.secondary-media-column {
 		float: none;
 		display: block;
 		margin: auto;
 	}
-}
-
-@media only screen and (max-width: 992px){
 	.top-header {
 		color: #3D5AAA !important;
 		/*font-weight: 200 !important;*/
@@ -221,12 +198,29 @@
 		width: 80%;
 		margin: 1em 10% 0;
 	}
+	.primary-media {
+		height: auto;
+		width: 100%;
+	}
+	.bottom-media {
+		display: flex;
+		flex-direction: column;
+	}
+	.secondary-media-column {
+		padding: 0;
+		margin: 0;
+		height: auto;
+	}
 }
 
-@media only screen and (max-width: 992px){
-	.primary-youtube {
-	  max-width: 100% !important;
-    width: auto !important;
-    height: auto !important;
+@media only screen and (max-width: 1024px){
+	.insurance-button {
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    margin-top: 17px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 1em;
 	}
 }
