@@ -111,11 +111,12 @@ class Home extends Component {
               <iframe src="https://www.youtube-nocookie.com/embed/Mp00gO6fjJM?rel=0" frameborder="0" gesture="media" allow="autoyplay; encrypted-media" allowfullscreen className="primary-youtube"></iframe>
             </div>
             <div className="secondary-media-column">
-               <div className="secondary-media" id="media1">
-                 <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media1-youtube"></iframe>
-               </div>
-               <div className="secondary-media" id="media2">
-               </div>
+              <div className="secondary-media" id="media1">
+                <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media1-youtube"></iframe>
+              </div>
+              <div className="secondary-media" id="media2">
+                <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media2-youtube"></iframe>
+              </div>
             </div>
           </div>
       </div>
