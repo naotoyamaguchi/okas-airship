@@ -57,7 +57,7 @@
 
 .submit:hover {
   background-color: white;
-  color: #3f51b5;
+  color: #2D5FA5;
   cursor: pointer;
 }
 
@@ -67,8 +67,7 @@
 
 .directions-body {
   display: flex;
-  padding-top: 0.5em;
-  padding-bottom: 3em;
+  padding: 0.5em 0 3em;
 }
 
 .directions-subheader {
@@ -83,7 +82,7 @@
   border: 1px dotted yellow;
   height: 300px;
   width: 450px;
-  background-color: #8F9A99
+  background-color: #8F9A99;
 }
 
 /*.bumper {
@@ -92,7 +91,7 @@
 }*/
 
 @media only screen and (max-width: 992px){
-  .name, .email, .phone, .message, .map {
+  .name, .email, .phone, .message, .map, .submit {
     width: 100%;
   }
 
@@ -114,7 +113,6 @@
 
   .submit {
     font-size: 0.8em;
-    width: 100%;
     margin-bottom: 1em;
     padding: 0.5em 2em;
   }
