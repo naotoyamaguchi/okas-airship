@@ -43,11 +43,8 @@ class Services extends Component {
       <div className="App">
         <div className="services-header">
           <h1 className="header-title">Services</h1>
+          <hr/>
         </div>
-
-        <div className="hr"><hr/></div>
-
-        {/*service row is the big div for each service*/}
         <div className="services-row">
 
           {/*left-service-column is what you need to image the left side of this row is with the name of the service, text, and that little ROW of certs at the bottom*/}
