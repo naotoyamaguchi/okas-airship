@@ -31,8 +31,9 @@ class Estimates extends Component {
             <h1 className="header-title">
               Estimates
             </h1>
+            <hr/>
           </div>
-          <div className="hr"><hr/></div>
+          
           <div className="estimates-body">
             <h1 className="subheader">Need a Quote?</h1>
             <p>If you're unsure of where to start, contact us for an appointment and we can arrange a free quote for whatever repair you need! Either message us for questions, or set up an appointment using our appointment system <Link to="/appointment">here</Link>.</p>
