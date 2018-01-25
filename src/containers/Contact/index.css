@@ -68,6 +68,7 @@
 .directions-body {
   display: flex;
   padding-top: 0.5em;
+  padding-bottom: 3em;
 }
 
 .directions-subheader {
@@ -85,10 +86,10 @@
   background-color: #8F9A99
 }
 
-.bumper {
+/*.bumper {
   height: 4em;
   width: 100%;
-}
+}*/
 
 @media only screen and (max-width: 992px){
   .name, .email, .phone, .message, .map {
