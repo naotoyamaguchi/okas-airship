@@ -58,4 +58,16 @@ a:hover {
     .header-info {
       display: none;
     }
+
+    .d-block {
+      width: 140px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        border: none;
+        cursor: pointer;
+    }
+    button.navbar-toggler:focus {
+        outline: none;
+    }
 }
