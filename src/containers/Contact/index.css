@@ -78,17 +78,29 @@
   margin-right: auto;
 }
 
-.map {
-  border: 1px dotted yellow;
-  height: 300px;
-  width: 450px;
-  background-color: #8F9A99;
-}
-
 /*.bumper {
   height: 4em;
   width: 100%;
 }*/
+
+
+/*vvvvvvvvvv Attempt at making map responsive vvvvvvvvvv*/
+
+/*.map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}*/
+
+/*^^^^^^^^^^^ Attempt at making map responsive ^^^^^^^^^^^*/
 
 @media only screen and (max-width: 992px){
   .name, .email, .phone, .message, .map, .submit {
