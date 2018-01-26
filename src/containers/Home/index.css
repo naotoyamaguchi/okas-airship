@@ -125,20 +125,14 @@
 	margin: 1.5em auto 4em;
 }
 
-.primary-media, .secondary-media-column {
+.secondary-media-column {
 	display: inline-block;
 }
 
 .primary-media {
+	display: inline-block;
 	width: 60%;
-	height: 100%;
-	float: left;
 	/*background-color: yellow;*/
-}
-
-.primary-youtube {
-	width: 100%;
-	height: 100%;
 }
 
 .secondary-media-column {
@@ -233,39 +227,6 @@
 	}
 	.home-bottom {
 		padding: 0;
-	}
-}
-
-@media only screen and (min-width: 992px){
-	.top-insurance {
-		max-width: 325px;
-	}
-}
-
-@media only screen and (max-width: 1500px) and (min-width: 992px){
-	.top-insurance {
-		width: 30%;
-	}
-
-	.insurance-image {
-		max-width: 60px;
-	}
-
-	.insurance-header {
-		font-size: 1em;
-	}
-
-	.insurance-text {
-		font-size: 1em;
-		width: 55%;
-	}
-
-	.insurance-description {
-		font-size: 0.9em;
-	}
-
-	.insurance-button {
-		
 	}
 }
 
