@@ -188,14 +188,12 @@
 	}
 	.top-header {
 		color: #3D5AAA !important;
-		/*font-weight: 200 !important;*/
 		letter-spacing: 0;
 		font-size: 1.5em !important;
 		padding: 1em 0 .5em 0
 	}	
 	.top-description {
 		font-size: 1.2em;
-	/*line-height: 19px;*/
 	}
 	.top-insurance {
 		float: none;
@@ -224,7 +222,10 @@
 		width: 100%;
 	}
 	.home-bottom {
-		padding-bottom: 3em;
+		padding-bottom: 2em;
+	}
+	.primary-media, .secondary-media {
+		padding-bottom: 1em;
 	}
 }
 
