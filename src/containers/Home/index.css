@@ -236,6 +236,39 @@
 	}
 }
 
+@media only screen and (min-width: 992px){
+	.top-insurance {
+		max-width: 325px;
+	}
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 992px){
+	.top-insurance {
+		width: 30%;
+	}
+
+	.insurance-image {
+		max-width: 60px;
+	}
+
+	.insurance-header {
+		font-size: 1em;
+	}
+
+	.insurance-text {
+		font-size: 1em;
+		width: 55%;
+	}
+
+	.insurance-description {
+		font-size: 0.9em;
+	}
+
+	.insurance-button {
+		
+	}
+}
+
 @media only screen and (max-width: 600px) and (min-width: 401px) {
 	.primary-youtube, .media1-youtube, .media2-youtube {
 		width: 400px;
