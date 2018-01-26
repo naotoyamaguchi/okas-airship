@@ -132,7 +132,19 @@
 .primary-media {
 	display: inline-block;
 	width: 60%;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 	/*background-color: yellow;*/
+}
+
+.primary-media iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .secondary-media-column {
