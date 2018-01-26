@@ -74,7 +74,7 @@ class Contact extends Component {
               Head east<br/><br/>
             </div>
             <div className="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.287102716342!2d-158.02055818463347!3d21.378597185809916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00643eb1f1304d%3A0x174f12cca4587be0!2sOka&#39;s+Auto+Body!5e0!3m2!1sen!2sus!4v1516960862678" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.2871027163424!2d-158.02055818506153!3d21.378597185809898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00643eb1f1304d%3A0x174f12cca4587be0!2sOka&#39;s+Auto+Body!5e0!3m2!1sen!2sus!4v1516962159172" width="450" height="300"></iframe>
             </div>
           </div>
         </div>
