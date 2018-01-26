@@ -9,8 +9,12 @@
 }
 
 h5 > a {
-	/*color of faq questions*/
-	color: #3d5aaa;
+	color: #3D5AAA;
+  background-color: white;
+}
+
+.card-header {
+  border: none;
 }
 
 /*vvvvvvvvvvvvvvvv  KELLI'S EDITS  vvvvvvvvvvvvvvv*/
