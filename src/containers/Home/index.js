@@ -111,14 +111,20 @@ class Home extends Component {
           <h2 className="bottom-header">Oka's In The News</h2>
           <div className="bottom-media">
             <div className="primary-media">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp00gO6fjJM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <div className="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp00gO6fjJM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
             </div>
             <div className="secondary-media-column">
               <div className="secondary-media" id="media1">
-                <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media1-youtube"></iframe>
+                <div className="videoWrapper">
+                  <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media1-youtube"></iframe>
+                </div>
               </div>
               <div className="secondary-media" id="media2">
-                <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media2-youtube"></iframe>
+                <div className="videoWrapper">
+                  <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media2-youtube"></iframe>
+                </div>
               </div>
             </div>
           </div>
