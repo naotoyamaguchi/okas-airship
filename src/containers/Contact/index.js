@@ -9,6 +9,7 @@ class Contact extends Component {
     super(props);
 
     this.state = {
+      form_name: "HelloWorldName",
       request_body: {
         "aerostat_collection_id": 582,
         "tags": [],
@@ -70,6 +71,42 @@ class Contact extends Component {
         ]
       }
     };
+
+    this.handleNameChange = this.handleNameChange.bind(this);
+    this.handleEmailChange = this.handleEmailChange.bind(this);
+    this.handlePhoneChange = this.handlePhoneChange.bind(this);
+    this.handleSelectChange = this.handleSelectChange.bind(this);
+    this.handleMessageChange = this.handleMessageChange.bind(this);
+  }
+
+  handleNameChange(event) {
+    let updated_obj = Object.assign({}, this.state.request_body);    //creating copy of object
+    updated_obj.fields[0].value = event.target.value;                        //updating value
+    this.setState({request_body: updated_obj});
+  }
+
+  handleEmailChange(event) {
+    let updated_obj = Object.assign({}, this.state.request_body);    //creating copy of object
+    updated_obj.fields[1].value = event.target.value;                        //updating value
+    this.setState({request_body: updated_obj});
+  }
+
+  handlePhoneChange(event) {
+    let updated_obj = Object.assign({}, this.state.request_body);    //creating copy of object
+    updated_obj.fields[2].value = event.target.value;                        //updating value
+    this.setState({request_body: updated_obj});
+  }
+
+  handleSelectChange(event) {
+    let updated_obj = Object.assign({}, this.state.request_body);    //creating copy of object
+    updated_obj.fields[3].value = event.target.value;                        //updating value
+    this.setState({request_body: updated_obj});
+  }
+
+  handleMessageChange(event) {
+    let updated_obj = Object.assign({}, this.state.request_body);    //creating copy of object
+    updated_obj.fields[4].value = event.target.value;                        //updating value
+    this.setState({request_body: updated_obj});
   }
 
   componentDidMount() {
@@ -129,18 +166,19 @@ class Contact extends Component {
             <div className="contact-form">
               <h3 className="body-subheader">Send Us a Message</h3>
               Name:<br/>
-              <input type="text" className="name"/><br/><br/>
+              <input type="text" className="name" onChange={this.handleNameChange}/><br/><br/>
               Email:<br/>
-              <input type="text" className="email"/><br/><br/>
+              <input type="text" className="email" onChange={this.handleEmailChange}/><br/><br/>
               Phone:<br/>
-              <input type="text" className="phone"/><br/><br/>
+              <input type="text" className="phone" onChange={this.handlePhoneChange}/><br/><br/>
               What is your preferred method of contact?<br/>
-                <select className="select">
-                <option value="email">Email</option>
-                <option value="phone">Phone</option>
+                <select className="select" onChange={this.handleSelectChange}>
+                <option value="Email">Email</option>
+                <option value="Phone">Phone</option>
                 </select><br/><br/>
               Message:<br/>
-              <textarea type="text" className="message"/><br/>
+              Message:<br/>
+              <textarea type="text" className="message" onChange={this.handleMessageChange}/><br/>
               <button className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
             </div>
             <hr className="mobile-hr"/>
