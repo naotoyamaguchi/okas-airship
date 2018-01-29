@@ -170,7 +170,7 @@ class Contact extends Component {
               Email:<br/>
               <input type="text" className="email" onChange={this.handleEmailChange}/><br/><br/>
               Phone:<br/>
-              <input type="text" className="phone" onChange={this.handlePhoneChange}/><br/><br/>
+              <input type="number" className="phone" onChange={this.handlePhoneChange}/><br/><br/>
               What is your preferred method of contact?<br/>
                 <select className="select" onChange={this.handleSelectChange}>
                 <option value="Email">Email</option>
