@@ -5,6 +5,73 @@ import './index.css';
 
 class Contact extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      request_body: {
+        "aerostat_collection_id": 582,
+        "tags": [],
+        "categories": [],
+        "sorting_position": 1,
+        "fields": [
+          {
+            "num_options":0,
+            "title":"Name",
+            "variable_name":"name",
+            "type":"text",
+            "options":[],
+            "sorting_position":1,
+            "value":"NameFromReact"
+          },
+
+          {
+            "num_options":0,
+            "title":"Email",
+            "variable_name":"email",
+            "type":"text",
+            "options":[],
+            "sorting_position":2,
+            "value":"EmailFromReact"
+          },
+
+          {
+            "num_options":0,
+            "title":"Phone",
+            "variable_name":"phone",
+            "type":"text",
+            "options":[],
+            "sorting_position":3,
+            "value":"PhoneFromReact"
+          },
+
+          {
+            "num_options":2,
+            "type":"select",
+            "options":[
+              "Phone",
+              "Email"
+            ],
+            "title":"contactMethod",
+            "variable_name":"contactmethod",
+            "sorting_position":4,
+            "value":"Email"
+          },
+
+          {
+            "num_options":0,
+            "title":"Message",
+            "variable_name":"message",
+            "type":"text",
+            "options":[],
+            "sorting_position":5,
+            "value":"MessageFromReact"
+          }
+        ]
+      }
+    };
+  }
+
   componentDidMount() {
     var elem = ReactDOM.findDOMNode(this);
     elem.style.opacity = 0;
@@ -12,6 +79,19 @@ class Contact extends Component {
       elem.style.transition = "1s ease";
       elem.style.opacity = 1;
     });
+
+    fetch("https://okas.airshipcms.io/api/aerostat_collection/contact-form")
+      .then(res => res.json())
+      .then(faqs => {
+        console.log(faqs);
+        faqs.map(item =>
+          item.fields.map(
+            field => (item[field.variable_name] = field.value)
+            )
+          );
+        this.setState({faqs});
+        // this.setState({  });
+      });
   }
 
   componentWillUnmount(){
@@ -20,6 +100,17 @@ class Contact extends Component {
     window.requestAnimationFrame(function() {
       elem.style.transition = "1s ease";
       elem.style.opacity = 0;
+    });
+  }
+
+  sendEmail(){
+    fetch('https://okas.airshipcms.io/api/aerostats', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(this.state.request_body)
     });
   }
 
@@ -50,7 +141,7 @@ class Contact extends Component {
                 </select><br/><br/>
               Message:<br/>
               <textarea type="text" className="message"/><br/>
-              <button className="submit">Submit ›</button>
+              <button className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
             </div>
             <hr className="mobile-hr"/>
             <div className="oka-contact-info">
