@@ -24,6 +24,7 @@
   height: 50px;
   width: 80%;
   border: 1px solid #D2D2D2;
+  padding-left: 0.5em;
 }
 
 .select {
@@ -43,6 +44,7 @@
   background-color: white;
   word-wrap: break-word;
   word-break: break-all;
+  padding: 0.5em 0 0 0.5em;
 }
 
 .submit {
