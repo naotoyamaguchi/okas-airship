@@ -8,7 +8,14 @@ class ContactConfirmation extends Component {
     return (
       <div className="App">
         <div className="confirmation">
-        	<h1>hello world</h1>
+          <div className="confirmation-header">
+            <h1 className="header-title">
+              Message received!
+            </h1>
+          </div>
+          <div className="confirmation-body">
+            Click HERE to return from whence you came
+          </div>
         </div>
       </div>
     );

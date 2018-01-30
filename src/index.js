@@ -15,7 +15,6 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 ReactDOM.render(
   <BrowserRouter>
-    
     <App>
       <Route exact path="/" component={Home} />
       <Route exact path="/contact" component={Contact} />
