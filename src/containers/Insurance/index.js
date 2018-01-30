@@ -7,7 +7,8 @@ class Insurance extends Component {
   render () {
     return (
       <div className="App">
-        <div className="confirmation">
+        <div className="insurance-rights">
+        	<h1> Hello world from insurance </h1>
         </div>
       </div>
     );

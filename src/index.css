@@ -16,3 +16,7 @@ body {
 .hr {
 	padding-bottom: 1em;
 }
+
+a:visited {
+	color: inherit;
+}

@@ -8,6 +8,7 @@ class ContactConfirmation extends Component {
     return (
       <div className="App">
         <div className="confirmation">
+        	<h1>hello world</h1>
         </div>
       </div>
     );

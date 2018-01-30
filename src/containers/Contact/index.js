@@ -177,7 +177,6 @@ class Contact extends Component {
                 <option value="Phone">Phone</option>
                 </select><br/><br/>
               Message:<br/>
-              Message:<br/>
               <textarea type="text" className="message" onChange={this.handleMessageChange}/><br/>
               <button className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
             </div>

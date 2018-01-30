@@ -219,6 +219,7 @@
 	}
 	.insurance-button {
 		padding: 12px 3px;
+		color: white !important;
 	}
 	.primary-media {
 		height: auto;
