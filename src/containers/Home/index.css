@@ -180,7 +180,45 @@
 	}
 }*/
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1500px) and (min-width: 1020px){
+	.top-header {
+		font: 1.75em !important;
+	}
+
+	.top-insurance {
+		width: 35%;
+		min-width: 310px;
+		max-width: 350px;
+	}
+
+	.insurance-image {
+		max-width: 60px;
+	}
+
+	.insurance-header {
+		font-size: 1.1em;
+	}
+
+	.insurance-text {
+		font-size: 1em;
+		width: 70%;
+		min-width: 170px;
+	}
+
+	.insurance-description {
+		font-size: 0.9em;
+	}
+
+	.insurance-button {
+		width: 90%;
+		font-size: 1em;
+		padding: 9px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 1020px){
 	.home-top {
 		padding: 0;
 	}
@@ -256,15 +294,3 @@
 		height: 500px;
 	}
 }*/
-
-@media only screen and (max-width: 1024px){
-	.insurance-button {
-    text-align: center;
-    width: 100%;
-    padding: 3px;
-    margin-top: 17px;
-    border: 1px solid white;
-    border-radius: 2px;
-    font-size: 1em;
-	}
-}
