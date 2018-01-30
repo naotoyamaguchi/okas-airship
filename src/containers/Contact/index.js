@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
+import { Link, Redirect, Switch, Route } from 'react-router-dom';
 import { browserHistory } from 'react-router';
+import createHistory from 'history/createBrowserHistory';
+import ContactConfirmation from '../ContactConfirmation';
 import './index.css';
 
 class Contact extends Component {
@@ -10,6 +12,7 @@ class Contact extends Component {
     super(props);
 
     this.state = {
+      redirect: false,
       form_name: "HelloWorldName",
       request_body: {
         "aerostat_collection_id": 582,
@@ -153,13 +156,28 @@ class Contact extends Component {
     .then(res => res.json())
     .catch(error => console.error('Error:', error))
     .then(response => {
-      console.log('Success:', response);
-      this.context.history.push('/contactconfirmation')
-      // this.history.pushState(null, 'contactconfirmation');
+      // console.log('Success:', response);
+      this.props.history.push('/contactconfirmation');
     });
   }
 
+  testFunc(){
+    this.props.history.push('/contactconfirmation');
+  }
+
   render() {
+    const { redirect } = this.state;
+    if (redirect) {
+       return <Switch>
+        <Redirect
+          exact
+          from="/contact"
+          to="/contactconfirmation"
+          key="from-contact"
+        />
+        <Route exact path="/contactconfirmation" component={ ContactConfirmation } />
+      </Switch>;
+     }
     return (
       <div className="App">
         <div className="contact">
