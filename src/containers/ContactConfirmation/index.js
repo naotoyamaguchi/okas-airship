@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
-
 import './index.css';
 
 class ContactConfirmation extends Component {
@@ -22,7 +21,6 @@ class ContactConfirmation extends Component {
       </div>
     );
   }
-
 }
 
 export default ContactConfirmation;
