@@ -46,13 +46,8 @@ class Services extends Component {
           <hr/>
         </div>
         <div className="services-row">
-
-          {/*left-service-column is what you need to image the left side of this row is with the name of the service, text, and that little ROW of certs at the bottom*/}
           <div className="left-service-column">
-
-            {/*self-explanatory service name*/}
             <h2 className="service-name">Body Shop</h2>
-            {/*self-explanatory again*/}
             <div className="service-description">
               <p>The proper repair of collision damage is critical to the safety and performance of your vehicle. Each vehicle is repaired to factory specifications in our state-of-the-art collision repair facility.
               </p>
@@ -65,17 +60,12 @@ class Services extends Component {
               <p>Sometimes mechanical components have been damaged or need to be removed to gain access to other damaged areas of your vehicle. We have all the necessary equipment to handle these mechanical repairs.
               </p>
             </div>
-          {/*now this is a row of little images / certs at the bottom of this div*/}
             <div className="service-image-row">
-              {/*and a row comes with multiple images*/}
               <img className="service-certificate-icar" src={require("../../assets/Icar_Cert.png")}/>
               <img className="service-certificate-ase" src={require("../../assets/ASE_Cert.png")}/>
             </div>
           </div>
-
-          {/*we exit the left-column div and this is the right column.. all it really has is two images lined up top-down.. flexbox column: see Home CSS*/}
           <div className="right-service-column">
-            {/*and now we have two flex image children who can line up top down in a column*/}
             <img className="service-image" src={require("../../assets/service-image.jpg")}/>
             <br></br>
             <img className="service-image" src={require("../../assets/service-image.jpg")}/>
@@ -84,9 +74,6 @@ class Services extends Component {
         </div>
 
         <div className="hr"><hr/></div>
-
-        {/*do it once, and this one should be complete too*/}
-        {/*aim for mobile too with this page, and always be checking that you're not completely breaking mobile / responsiveness of other pages plz*/}
 
         <div className="services-row">
           <div className="left-service-column">
@@ -109,11 +96,11 @@ class Services extends Component {
           </div>
         </div>
         <div className="bumper"/>
-       <div
-         className="body"
-         dangerouslySetInnerHTML={{
-           __html: this.state.page.body
-         }}
+        <div
+          className="body"
+          dangerouslySetInnerHTML={{
+            __html: this.state.page.body
+          }}
        />
      </div>
    );
