@@ -15,7 +15,7 @@ class ContactConfirmation extends Component {
             </h1>
           </div>
           <div className="confirmation-body">
-            Click <Link to="/" className="return-home">HERE</Link> to return from whence you came
+            Click <Link to="/" className="return-home">here</Link> to return to the homepage.
           </div>
         </div>
       </div>
