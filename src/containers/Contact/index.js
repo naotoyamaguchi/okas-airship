@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
+import { browserHistory } from 'react-router';
 import './index.css';
 
 class Contact extends Component {
@@ -148,6 +149,13 @@ class Contact extends Component {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(this.state.request_body)
+    })
+    .then(res => res.json())
+    .catch(error => console.error('Error:', error))
+    .then(response => {
+      console.log('Success:', response);
+      this.context.history.push('/contactconfirmation')
+      // this.history.pushState(null, 'contactconfirmation');
     });
   }
 
