@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
- 
+
 import './index.css';
 
 class ContactConfirmation extends Component {
@@ -16,7 +16,7 @@ class ContactConfirmation extends Component {
             </h1>
           </div>
           <div className="confirmation-body">
-            Click <Link to="/">HERE</Link> to return from whence you came
+            Click <Link to="/" className="return-home">HERE</Link> to return from whence you came
           </div>
         </div>
       </div>
