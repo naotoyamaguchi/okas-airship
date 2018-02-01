@@ -83,18 +83,22 @@
 /*vvvvvvvvvv Attempt at making map responsive vvvvvvvvvv*/
 
 /*.map {
-  position: relative;
-  padding-bottom: 75%;
-  height: 0;
-  overflow: hidden;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
 }
-.map iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+.map iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }*/
+
+.map, .map iframe {
+  width: 100%;
+}
 
 /*^^^^^^^^^^^ Attempt at making map responsive ^^^^^^^^^^^*/
 
