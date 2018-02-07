@@ -66,9 +66,9 @@ class Services extends Component {
             </div>
           </div>
           <div className="right-service-column">
-            <img className="service-image" src={require("../../assets/service-image.jpg")}/>
+            <img className="service-image" src={require("../../assets/bodyshop1.jpg")}/>
             <br></br>
-            <img className="service-image" src={require("../../assets/service-image.jpg")}/>
+            <img className="service-image" src={require("../../assets/bodyshop2.jpg")}/>
           </div>
 
         </div>
@@ -92,7 +92,7 @@ class Services extends Component {
           <div className="right-service-column">
             <img className="service-image" src={require("../../assets/service-image.jpg")}/>
             <br></br>
-            <img className="service-image" src={require("../../assets/service-image.jpg")}/>
+            <img className="service-image" src={require("../../assets/paintshop2.jpg")}/>
           </div>
         </div>
         <div className="bumper"/>
