@@ -281,6 +281,12 @@
 	}
 }
 
+@media only screen and (max-width: 1020px){
+	.insurance-image {
+		max-width: 60px;
+	}
+}
+
 /*@media only screen and (max-width: 600px) and (min-width: 401px) {
 	.primary-youtube, .media1-youtube, .media2-youtube {
 		width: 400px;
