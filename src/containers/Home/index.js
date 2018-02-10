@@ -80,21 +80,14 @@ class Home extends Component {
           </div>
           
           <div className="top-insurance">
-
-            <img className="insurance-image" src={require("../../assets/open-book.jpg")}/>
-            
-            <div className="insurance-text">
-               
-               <div className="insurance-header">Know Your Rights!</div>
-               <div className="insurance-description">
-                  Did you know you have the right to choose your provider for insurance claims?
-               </div>
+            <div className="insurance-image">
+              <img src="assets/react-app/media/open-book.b81960f0.jpg"/>
             </div>
-            <Link to="/insurance">
-              <div className="insurance-button">
-                 Find Out More ›
-              </div>
-            </Link >
+            <div className="insurance-text">
+              <div className="insurance-header">Know Your Rights!</div>
+              <div className="insurance-description">Did you know you have the right to choose your provider for insurance claims?</div>
+            </div>
+            <a href="/insurance" className="insurance-button">Find Out More ›</a>
           </div>
           
       </div>
@@ -111,7 +104,7 @@ class Home extends Component {
       </div>
 
       <div className="home-bottom">
-          <h2 className="bottom-header">Oka's In The News</h2>
+        <h2 className="bottom-header">Oka's In The News</h2>
           <div className="bottom-media">
             <div className="primary-media">
               <div className="video-wrapper">

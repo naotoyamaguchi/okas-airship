@@ -46,7 +46,7 @@
 	/*line-height: 19px;*/
 }
 
-.top-insurance {
+/*.top-insurance {
 	background-color: #3D5AAA;
 	color: white;
 	width: 28%;
@@ -94,7 +94,7 @@
 
 .insurance-description {
 	font-size: 1em;
-}
+}*/
 
 .certification-header {
 	font-size: .75em;
@@ -185,13 +185,7 @@
 		font: 1.75em !important;
 	}
 
-	.top-insurance {
-		width: 35%;
-		min-width: 310px;
-		max-width: 350px;
-	}
-
-	.insurance-image {
+/*	.insurance-image {
 		max-width: 60px;
 	}
 
@@ -215,7 +209,7 @@
 		padding: 9px;
 		margin-left: auto;
 		margin-right: auto;
-	}
+	}*/
 }
 
 @media only screen and (max-width: 1020px){
@@ -246,7 +240,7 @@
 	.top-description {
 		font-size: 1.2em;
 	}
-	.top-insurance {
+/*	.top-insurance {
 		float: none;
 		width: 80%;
 		padding: 13px 20px 20px;
@@ -258,7 +252,7 @@
 	.insurance-button {
 		padding: 12px 3px;
 		color: white !important;
-	}
+	}*/
 	.primary-media {
 		height: auto;
 		width: 100%;
@@ -281,11 +275,82 @@
 	}
 }
 
-@media only screen and (max-width: 1020px){
+/*@media only screen and (max-width: 1020px){
 	.insurance-image {
 		max-width: 60px;
 	}
+}*/
+
+
+/*@media only screen and (max-width: 749px){*/
+.top-insurance {
+	background-color: #3D5AAA;
+	color: #FFF;
+	width: 80%;
+	padding: 13px 20px 20px;
+	border-radius: 5px;
+	display: flex;
+	flex-flow: row wrap;
+	margin: 1em auto 1.5em;
 }
+.insurance-text {
+	border: 1px solid greenyellow;
+	flex: 0 0 70%;
+}
+.insurance-button {
+	text-align: center;
+	border: 1px solid #FFF;
+	border-radius: 2px;
+	font-size: 1.25em;
+	transition: .25s ease;
+	flex: 0 0 100%;
+	margin-top: 0.75em;
+	padding: 12px 3px;
+	color: #FFF;
+}
+.insurance-image {
+	border: 1px solid red;
+	flex: 0 0 30%;
+	margin: auto;
+	padding-right: 1em;
+}
+/*}*/
+
+@media only screen and (min-width: 750px){
+	.insurance-image: {
+		flex: 0 0 120px;
+	}
+	.insurance-text {
+		flex: 1 1 30%;
+	}
+	a.insurance-button {
+		flex: 0 0 170px;
+		margin: auto;
+		height: 57px;
+		margin-left: 0.5em;
+	}
+}
+
+@media only screen and (min-width: 1080px){
+/*vvvvvvvvvvvvvvvvvKELLI'S EDITSvvvvvvvvvvvvvvvvvvvvvv*/
+	.top-insurance {
+		width: 35%;
+		float: right;
+	}
+	.insurance-image {
+		flex: 0 0 80px;
+		max-width: none;
+	}
+	a.insurance-button {
+		flex: 0 0 100%;
+		margin: auto;
+		height: auto;
+		margin-left: 0;
+		margin-top: 1em;
+	}
+/*^^^^^^^^^^^^^^^^KELLI'S EDITS^^^^^^^^^^^^^^^^^^*/
+}
+
 
 /*@media only screen and (max-width: 600px) and (min-width: 401px) {
 	.primary-youtube, .media1-youtube, .media2-youtube {
