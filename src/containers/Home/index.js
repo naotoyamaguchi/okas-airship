@@ -81,7 +81,7 @@ class Home extends Component {
           
           <div className="top-insurance">
             <div className="insurance-image">
-              <img src="assets/react-app/media/open-book.b81960f0.jpg"/>
+              <img src={require("../../assets/open-book.jpg")}/>
             </div>
             <div className="insurance-text">
               <div className="insurance-header">Know Your Rights!</div>
