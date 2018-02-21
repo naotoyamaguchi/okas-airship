@@ -1,0 +1,166 @@
+.page-title {
+  text-align: center;
+  padding: 4% 0% 2%;
+  color: #3D5AAA !important;
+}
+
+.hr {
+  align-content: center;
+  padding: 0 10%;
+}
+
+.subheader {
+  color: #3D5AAA !important;
+}
+
+.inner-app {
+  padding: 0 10%;
+}
+
+
+
+/***/
+
+.social-media-post{
+  /*border:1px solid grey;*/
+  display: block;
+  box-sizing: border-box;
+  padding: 8px 8px 8px;
+  transition: all 0.2s ease;
+  flex: 0 0 100%;
+}
+
+
+
+.content-container {
+  padding: 0 1em;
+}
+
+.social-media-posts{
+  display: flex;
+  flex-flow: row wrap;
+  /*padding: 8px;*/
+  justify-content: center;
+}
+
+
+
+.social-media-post > p {
+  padding: 10px;
+  color: #777;
+  font-size: 16px;
+  line-height: 22px;
+  word-break: break-word;
+  margin-bottom: 0;
+}
+
+.social-media-post-inner{
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.15);
+  position: relative;
+  padding: 10px;
+}
+
+.social-media-image{
+  background: url('https://res.cloudinary.com/airship/image/upload/f_auto/v1517160061/media/AE-411_dmowpe.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.social-media-image-2{
+  background: url('https://res.cloudinary.com/airship/image/upload/f_auto/v1517160268/media/AE-536_rp5w05.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+.social-media-image > img {
+  display: block;
+  opacity: 0;
+  height: auto;
+}
+
+.social-media-image-2 > img {
+  display: block;
+  opacity: 0;
+  height: auto;
+}
+
+/* Medium */
+
+@media screen and (min-width: 48em){
+  .social-media-content{
+    margin-top: 0;
+  }
+
+  .social-media-post {
+    flex: 1 0 auto;
+  }
+
+  .social-media-image > img {
+    height: 250px;
+  }
+
+  .social-media-image-2> img {
+    height: 250px;
+  }
+
+}
+
+@media only screen and (max-width: 48em){
+/*  .social-media-image > img {
+    height: 250px;
+  }
+
+  .social-media-image-2> img {
+    height: 250px;
+  }*/
+}
+
+/* Large */
+
+@media only screen and (min-width: 64em){
+  .social-media-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .content-container {
+    padding: 0;
+  }
+
+}
+
+@media only screen and (min-width: 64em){
+  .social-media-image > img {
+    height: 350px;
+  }
+
+  .social-media-image-2> img {
+    height: 350px;
+  }
+}
+
+/* */
+
+@media only screen and (min-width: 1200px){
+
+  .social-media-image > img{
+    height: 450px;
+  }
+
+  /* remove this later */
+
+  .social-media-image-2 > img{
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 1600px){
+  .social-media-content {
+    max-width: 1500px;
+    margin: 50px auto;
+  }
+}
+
