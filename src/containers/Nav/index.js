@@ -54,6 +54,13 @@ class Nav extends Component {
                 </div>
               </li>
             </Link>
+            <Link to="/gallery">
+              <li className="nav-item">
+                <div className="nav-link">
+                  <span className="nav-anchor">Gallery</span>
+                </div>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="header-info">

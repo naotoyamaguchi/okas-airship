@@ -223,9 +223,9 @@ class Contact extends Component {
             <div className="directions">
               <h3 className="body-subheader">Directions</h3>
               <div className="directions-subheader">From the East:</div>
-              Head west<br/><br/>
+              Take exit 5A when heading west on the H1 in Waipahu. Head south down Fort Weaver Rd then head left onto Farrington Hwy. Turn right on the corner of Cutter Mazda and we will be on your left.<br/><br/>
               <div className="directions-subheader">From the West:</div>
-              Head east<br/><br/>
+              Take exit 5 when heading east on the H1 in Waipahu. Head south down Fort Weaver Rd then turn left onto Farrignton Hwy. Turn right on the corner of Cutter Mazda and we will be on your left.<br/><br/>
             </div>
             <div className="map">
               <iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCT-RHGbYihItuDN5FtrxjCpHZ7SwgIMN4&origin=current%20location&&destination=Oka&#39;s+Auto+Body" allowfullscreen/>

@@ -37,64 +37,16 @@
 	color: #3D5AAA !important;
 	/*font-weight: 200 !important;*/
 	letter-spacing: 0;
-	font-size: 2em !important;
-	padding-bottom: .5em
+	font-size: 1.75em !important;
+	padding-bottom: .5em;
+	font-weight: 450
+	;
 }
 
 .top-description {
-	font-size: 1.4em;
+	font-size: 1.25em;
 	/*line-height: 19px;*/
 }
-
-/*.top-insurance {
-	background-color: #3D5AAA;
-	color: white;
-	width: 28%;
-	float: right;
-	padding: 22px 27px 27px;
-	border-radius: 5px;
-}
-
-.insurance-image {
-	height: auto;
-	max-width: 80px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.insurance-button {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	margin-top: 17px;
-	border: 1px solid white;
-	border-radius: 2px;
-	font-size: 1.25em;
-	transition: 0.25s ease;
-}
-
-.insurance-button:hover {
-	background-color: white;
-	color: #3f51b5;
-	cursor: pointer;
-}
-
-.insurance-text {
-	width: 65%;
-	margin-left: 0.9em;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.insurance-header {
-	font-size: 1.4em;
-	color: white;
-	font-weight: bold;
-}
-
-.insurance-description {
-	font-size: 1em;
-}*/
 
 .certification-header {
 	font-size: .75em;
@@ -106,10 +58,9 @@
 	/*padding-top: 3em;*/
 	/*padding-bottom: 1em;*/
 }
-
-/*.certification-bar{
-	border: 1px solid black;
-}*/
+.insurance-header {
+	font-size: 1.2em;
+}
 
 .certification-image {
 	height: 4em;
@@ -163,55 +114,6 @@
 	width: 30%;
 }
 
-/*#media2 {
-	padding-top: 5%;
-}*/
-
-
-/*@media only screen and (max-width: 400px) {
-	.primary-youtube{
-  	height: auto;
-  	width: 100%
-	}
-
-	.primary-youtube iframe{
-	  width: 300px;
-	  height: 200px;
-	}
-}*/
-
-@media only screen and (max-width: 1500px) and (min-width: 1020px){
-/*	.top-header {
-		font: 1.75em !important;
-	}*/
-
-/*	.insurance-image {
-		max-width: 60px;
-	}
-
-	.insurance-header {
-		font-size: 1.1em;
-	}
-
-	.insurance-text {
-		font-size: 1em;
-		width: 70%;
-		min-width: 170px;
-	}
-
-	.insurance-description {
-		font-size: 0.9em;
-	}
-
-	.insurance-button {
-		width: 90%;
-		font-size: 1em;
-		padding: 9px;
-		margin-left: auto;
-		margin-right: auto;
-	}*/
-}
-
 @media only screen and (max-width: 1080px){
 	.home-top {
 		padding: 0;
@@ -240,19 +142,7 @@
 	.top-description {
 		font-size: 1.2em;
 	}
-/*	.top-insurance {
-		float: none;
-		width: 80%;
-		padding: 13px 20px 20px;
-		margin: 1em 10% 1.5em;
-	}
-	.insurance-header {
-		font-size: 1.2em;
-	}
-	.insurance-button {
-		padding: 12px 3px;
-		color: white !important;
-	}*/
+
 	.primary-media {
 		height: auto;
 		width: 100%;
