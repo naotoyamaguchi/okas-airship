@@ -35,8 +35,8 @@ class Estimates extends Component {
           </div>
           
           <div className="estimates-body">
-            <h1 className="subheader">Need a Quote?</h1>
-            <p>If you're unsure of where to start, contact us for an appointment and we can arrange a free quote for whatever repair you need! Either message us for questions, or set up an appointment using our appointment system <strong><Link to="/appointment">here</Link></strong>.</p>
+            <h2 className="estimates-subheader">Need a Quote?</h2>
+            <p className="estimates-text">If you're unsure of where to start, contact us for an appointment and we can arrange a free quote for whatever repair you need! Either message us for questions, or set up an appointment using our appointment system <strong><Link to="/appointment">here</Link></strong>.</p>
           </div>
         </div>
         <div className="bumper"></div>

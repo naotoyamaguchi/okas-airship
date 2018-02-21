@@ -4,15 +4,17 @@
   color: #3D5AAA !important;
 }
 
-.hr {
-  align-content: center;
-  padding: 0 10%;
-}
-
-.subheader {
+.estimates-subheader {
   color: #3D5AAA !important;
+  text-align: center;
 }
 
 .estimates {
   padding: 0 10%;
+}
+
+.estimates-text {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
 }

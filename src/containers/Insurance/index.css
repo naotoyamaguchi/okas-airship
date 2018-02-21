@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+.insurance-page {
+	padding: 0 10%;
+}
+
 .return-home {
   
+}
+
+.insurance-fact {
+	padding-bottom: 1em;
+}
+
+.fact-header {
+	font-size: 1.5em;
+	padding-bottom: .25em;
+	text-decoration: underline;
+}
+
+.insurance-page-body {
+	padding-bottom: 5em;
 }
