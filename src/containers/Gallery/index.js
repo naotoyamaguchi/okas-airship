@@ -39,61 +39,61 @@ class Gallery extends Component {
           <div className='content social-media-content'>
             <div className="social-media-posts">
 
+                <div className="social-media-post social-media-has-image">
+                  <div className="social-media-post-inner">
+                    <div className="social-media-image-2">
+                      <img src="" alt="gallery-image"/>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="social-media-post social-media-has-image">
+                  <div className="social-media-post-inner">
+                    <div className="social-media-image-2">
+                      <img src="" alt="gallery-image"/>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="social-media-post social-media-has-image">
+                  <div className="social-media-post-inner">
+                    <div className="social-media-image">
+                      <img src="" alt="gallery-image"/>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="social-media-post social-media-has-image">
+                  <div className="social-media-post-inner">
+                    <div className="social-media-image">
+                      <img src="" alt="gallery-image"/>
+                    </div>
+                  </div>
+                </div>
+
 {/*                <div className="social-media-post social-media-has-image">
                   <div className="social-media-post-inner">
-                    <div className="social-media-image-2">
-                      <img src="https://res.cloudinary.com/airship/image/upload/f_auto/v1517160268/media/AE-536_rp5w05.jpg" alt="gallery-image"/>
-                    </div>
+                    <div className="social-media-image-2"/>
                   </div>
                 </div>
 
                 <div className="social-media-post social-media-has-image">
                   <div className="social-media-post-inner">
-                    <div className="social-media-image-2">
-                      <img src="https://res.cloudinary.com/airship/image/upload/f_auto/v1517160268/media/AE-536_rp5w05.jpg" alt="gallery-image"/>
-                    </div>
+                    <div className="social-media-image-2"/>
                   </div>
                 </div>
 
                 <div className="social-media-post social-media-has-image">
                   <div className="social-media-post-inner">
-                    <div className="social-media-image">
-                      <img src="https://res.cloudinary.com/airship/image/upload/f_auto/v1517160061/media/AE-411_dmowpe.jpg" alt="gallery-image"/>
-                    </div>
+                    <div className="social-media-image"/>
                   </div>
                 </div>
 
                 <div className="social-media-post social-media-has-image">
                   <div className="social-media-post-inner">
-                    <div className="social-media-image">
-                      <img src="https://res.cloudinary.com/airship/image/upload/f_auto/v1517160061/media/AE-411_dmowpe.jpg" alt="gallery-image"/>
-                    </div>
+                    <div className="social-media-image"/>
                   </div>
                 </div>*/}
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image-2"/>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image-2"/>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image"/>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image"/>
-                  </div>
-                </div>
 
             </div>
           </div>
