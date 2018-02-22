@@ -71,30 +71,6 @@ class Gallery extends Component {
                   </div>
                 </div>
 
-{/*                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image-2"/>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image-2"/>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image"/>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image"/>
-                  </div>
-                </div>*/}
-
             </div>
           </div>
 

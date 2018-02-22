@@ -59,12 +59,9 @@
   .service-certificate-icar, .service-certificate-ase {
     display: block;
     margin: auto;
-    width: 20%;
   }
   .service-image {
     padding: 1em 1em 0em 1em;
+    width: auto;
   }
-}
-
-@media only screen and (max-width: 1200px){
 }
