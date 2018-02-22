@@ -61,19 +61,20 @@
 }
 
 .social-media-image{
-  background: url('https://res.cloudinary.com/airship/image/upload/f_auto/v1517160061/media/AE-411_dmowpe.jpg');
+  background-image:url('../../assets/420.JPG');
+  /*background: url('https://res.cloudinary.com/airship/image/upload/f_auto/v1517160061/media/AE-411_dmowpe.jpg');*/
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .social-media-image-2{
-  background: url('https://res.cloudinary.com/airship/image/upload/f_auto/v1517160268/media/AE-536_rp5w05.jpg');
+  background-image:url('../../assets/420.JPG');
+  /*background: url('https://res.cloudinary.com/airship/image/upload/f_auto/v1517160268/media/AE-536_rp5w05.jpg');*/
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-
 
 .social-media-image > img {
   display: block;
