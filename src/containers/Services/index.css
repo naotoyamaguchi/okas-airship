@@ -56,12 +56,8 @@
     float: none;
     width: 100%;
   }  
-  .service-certificate-icar, .service-certificate-ase {
+  .service-certificate-icar, .service-certificate-ase, .service-image {
     display: block;
     margin: auto;
-  }
-  .service-image {
-    padding: 1em 1em 0em 1em;
-    width: auto;
   }
 }
