@@ -107,18 +107,18 @@ class Home extends Component {
           <div className="bottom-media">
             <div className="primary-media">
               <div className="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp00gO6fjJM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Mp00gO6fjJM" frameBorder="0"  allowFullScreen></iframe>
               </div>
             </div>
             <div className="secondary-media-column">
               <div className="secondary-media" id="media1">
                 <div className="video-wrapper">
-                  <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media1-youtube"></iframe>
+                  <iframe src="https://www.youtube.com/embed/vN8A9MiALg4"  allowFullScreen className="media1-youtube"></iframe>
                 </div>
               </div>
               <div className="secondary-media" id="media2">
                 <div className="video-wrapper">
-                  <iframe src="https://www.youtube.com/embed/vN8A9MiALg4" allow="autoplay; encrypted-media" allowfullscreen className="media2-youtube"></iframe>
+                  <iframe src="https://www.youtube.com/embed/vN8A9MiALg4"  allowFullScreen className="media2-youtube"></iframe>
                 </div>
               </div>
             </div>

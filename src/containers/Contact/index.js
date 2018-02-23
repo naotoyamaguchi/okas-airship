@@ -120,19 +120,6 @@ class Contact extends Component {
       elem.style.transition = "1s ease";
       elem.style.opacity = 1;
     });
-
-    fetch("https://okas.airshipcms.io/api/aerostat_collection/contact-form")
-      .then(res => res.json())
-      .then(faqs => {
-        console.log(faqs);
-        faqs.map(item =>
-          item.fields.map(
-            field => (item[field.variable_name] = field.value)
-            )
-          );
-        this.setState({faqs});
-        // this.setState({  });
-      });
   }
 
   componentWillUnmount(){
@@ -228,7 +215,7 @@ class Contact extends Component {
               Take exit 5 when heading east on the H1 in Waipahu. Head south down Fort Weaver Rd then turn left onto Farrignton Hwy. Turn right on the corner of Cutter Mazda and we will be on your left.<br/><br/>
             </div>
             <div className="map">
-              <iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCT-RHGbYihItuDN5FtrxjCpHZ7SwgIMN4&origin=current%20location&&destination=Oka&#39;s+Auto+Body" allowfullscreen/>
+              <iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCT-RHGbYihItuDN5FtrxjCpHZ7SwgIMN4&origin=current%20location&&destination=Oka&#39;s+Auto+Body" allowFullScreen/>
 
               {/*<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.2871027163424!2d-158.02055818506153!3d21.378597185809898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c00643eb1f1304d%3A0x174f12cca4587be0!2sOka&#39;s+Auto+Body!5e0!3m2!1sen!2sus!4v1516962159172" width="450" height="300" allowfullscreen/>*/}
             </div>
