@@ -46,7 +46,7 @@ class Faq extends Component {
 
 
   render() {
-    console.log(this.state);
+    // console.log(this.state);
     var accordianCard = this.state.faqs.map(function(faq, index){
       return <div className="card" key={index}>
         <div className="card-header" role="tab" id="headingOne">

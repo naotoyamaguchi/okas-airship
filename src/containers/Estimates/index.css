@@ -18,3 +18,7 @@
 	margin: 0 auto;
 	text-align: center;
 }
+
+.appointment-link {
+	text-decoration: underline;
+}

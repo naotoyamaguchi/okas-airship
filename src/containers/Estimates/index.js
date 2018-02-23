@@ -29,14 +29,14 @@ class Estimates extends Component {
         <div className="estimates">
           <div className="estimates-header">
             <h1 className="header-title">
-              Estimates
+              Need a Quote?
             </h1>
             <hr/>
           </div>
           
           <div className="estimates-body">
-            <h2 className="estimates-subheader">Need a Quote?</h2>
-            <p className="estimates-text">If you're unsure of where to start, contact us for an appointment and we can arrange a free quote for whatever repair you need! Either message us for questions, or set up an appointment using our appointment system <strong><Link to="/appointment">here</Link></strong>.</p>
+            {/*<h2 className="estimates-subheader">Need a Quote?</h2>*/}
+            <p className="estimates-text">If you're unsure of where to start, contact us for an appointment and we can arrange a free quote for whatever repair you need! Either message us for questions, or set up an appointment using our appointment system <strong><Link to="/appointment" className="appointment-link">here</Link></strong>.</p>
           </div>
         </div>
         <div className="bumper"></div>

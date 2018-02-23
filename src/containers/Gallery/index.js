@@ -23,7 +23,7 @@ class Gallery extends Component {
     fetch("https://okas.airshipcms.io/api/aerostat_collection/gallery")
       .then(res => res.json())
       .then(posts => {
-        console.log(posts);
+        // console.log(posts);
         posts.map(item =>
           item.fields.map(
             field => (item[field.variable_name] = field.value)
@@ -45,7 +45,7 @@ class Gallery extends Component {
 
 
   render() {
-    console.log(this.state);
+    // console.log(this.state);
 
     var galleryPost = this.state.posts.map(function(post, index){
       return <div className="social-media-post social-media-has-image" key={index}>
