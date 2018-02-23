@@ -9,7 +9,7 @@ body {
 
 .header-title {
 	text-align: center;
-  padding: 2em 0 1.5em;
+  padding: .75em 0 .25em;
   color: #3D5AAA !important;
 }
 
@@ -19,4 +19,10 @@ body {
 
 a:visited {
 	color: inherit;
+}
+
+@media only screen and (min-width: 1024px){
+  .header-title {
+    padding: 2em 0 1.5em;
+  }
 }

@@ -61,8 +61,8 @@ class Gallery extends Component {
       <div className="App">
         <div className="inner-app">
           <div className="estimates-header">
-            <h1 className="page-title">
-              Fun Pictures!
+            <h1 className="header-title">
+              Gallery
             </h1>
             <hr/>
           </div>
