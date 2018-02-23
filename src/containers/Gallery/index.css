@@ -63,14 +63,7 @@
 .social-media-image{
   /*background-image:url('../../assets/420.JPG');*/
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.social-media-image-2{
-  background-image:url('../../assets/420.JPG');
-  background-size: cover;
-  background-position: center center;
+  background-position: center 20%;
   background-repeat: no-repeat;
 }
 
@@ -135,10 +128,6 @@
   .social-media-image > img {
     height: 350px;
   }
-
-  .social-media-image-2> img {
-    height: 350px;
-  }
 }
 
 /* */
@@ -146,14 +135,10 @@
 @media only screen and (min-width: 1200px){
 
   .social-media-image > img{
-    height: 450px;
+    height: 500px;
   }
 
   /* remove this later */
-
-  .social-media-image-2 > img{
-    height: 450px;
-  }
 }
 
 @media only screen and (min-width: 1600px){
