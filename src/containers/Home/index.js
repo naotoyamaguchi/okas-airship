@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
 import './index.css';
 
 class Home extends Component {
@@ -81,7 +80,7 @@ class Home extends Component {
           
           <div className="top-insurance">
             <div className="insurance-image">
-              <img src={require("../../assets/open-book.jpg")}/>
+              <img src={require("../../assets/open-book.jpg")} alt="home-pic"/>
             </div>
             <div className="insurance-text">
               <div className="insurance-header">Know Your Rights!</div>
@@ -97,9 +96,9 @@ class Home extends Component {
       <div className="home-certifications">
           <span className="certification-header">WE ARE CERTIFIED</span>
           <div className="certification-bar">
-            <img className="certification-image" src={require("../../assets/ACoat_Cert.jpg")}/>
-            <img className="certification-image" src={require("../../assets/Icar_Cert.png")}/>
-            <img className="certification-image" src={require("../../assets/ASE_Cert.png")}/>
+            <img className="certification-image" src={require("../../assets/ACoat_Cert.jpg")} alt="home-pic"/>
+            <img className="certification-image" src={require("../../assets/Icar_Cert.png")} alt="home-pic"/>
+            <img className="certification-image" src={require("../../assets/ASE_Cert.png")} alt="home-pic"/>
           </div>
       </div>
 

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ReactDOM from 'react-dom'; 
-import { Link } from 'react-router-dom';
+// import ReactDOM from 'react-dom'; 
+// import { Link } from 'react-router-dom';
 import './index.css';
 
 class Insurance extends Component {

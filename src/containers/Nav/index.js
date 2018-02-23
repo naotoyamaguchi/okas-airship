@@ -69,7 +69,7 @@ class Nav extends Component {
           </div>
           <div className="header-info-line">
             <span className="info-span1">808-677-5474</span>
-            <span clssName="info-separator">•</span>
+            <span className="info-separator">•</span>
             <span className="info-span2">Hours: 7:30-4:30 M-F</span>
           </div>
         </div>

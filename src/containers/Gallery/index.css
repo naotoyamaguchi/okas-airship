@@ -61,7 +61,7 @@
 }
 
 .social-media-image{
-  background-image:url('../../assets/420.JPG');
+  /*background-image:url('../../assets/420.JPG');*/
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

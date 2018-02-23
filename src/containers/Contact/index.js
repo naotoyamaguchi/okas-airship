@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Link, Redirect, Switch, Route } from 'react-router-dom';
-import { browserHistory } from 'react-router';
-import createHistory from 'history/createBrowserHistory';
+import { Redirect, Switch, Route } from 'react-router-dom';
+// import { browserHistory } from 'react-router';
+// import createHistory from 'history/createBrowserHistory';
 import ContactConfirmation from '../ContactConfirmation';
 import './index.css';
 

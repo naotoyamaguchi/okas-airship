@@ -24,14 +24,13 @@ class Faq extends Component {
     fetch("https://okas.airshipcms.io/api/aerostat_collection/faq")
       .then(res => res.json())
       .then(faqs => {
-        console.log(faqs);
+        // console.log(faqs);
         faqs.map(item =>
           item.fields.map(
             field => (item[field.variable_name] = field.value)
             )
           );
         this.setState({faqs});
-        // this.setState({  });
       });
   }
 
