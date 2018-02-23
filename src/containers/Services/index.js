@@ -61,14 +61,14 @@ class Services extends Component {
               </p>
             </div>
             <div className="service-image-row">
-              <img className="service-certificate-icar" src={require("../../assets/Icar_Cert.png")} alt="service"/>
-              <img className="service-certificate-ase" src={require("../../assets/ASE_Cert.png")} alt="service"/>
+              <img className="service-certificate-icar" src={require("../../assets/Icar_Cert.png")}/>
+              <img className="service-certificate-ase" src={require("../../assets/ASE_Cert.png")}/>
             </div>
           </div>
           <div className="right-service-column">
-            <img className="service-image" src={require("../../assets/bodyshop1.jpg")} alt="service"/>
+            <img className="service-image" src={require("../../assets/bodyshop1.jpg")}/>
             <br></br>
-            <img className="service-image" src={require("../../assets/bodyshop2.jpg")} alt="service"/>
+            <img className="service-image" src={require("../../assets/bodyshop2.jpg")}/>
           </div>
 
         </div>
@@ -84,15 +84,14 @@ class Services extends Component {
               <p>After painting and applying clear coat, your vehicle is baked to give the paint durability and a high gloss that will last the life of your vehicle. Your vehicle's paint is then inspected and buffed to meet our quality standard.</p>
             </div>
             <div className="service-image-row">
-              <img className="service-certificate-icar" src={require("../../assets/Icar_Cert.png")} alt="service"/>
-              <img className="service-certificate-ase" src={require("../../assets/ASE_Cert.png")} alt="service"/>
+              <img className="service-certificate-icar" src={require("../../assets/sikkens.png")}/>
             </div>
           </div>
 
           <div className="right-service-column">
-            <img className="service-image" src={require("../../assets/service-image.jpg")} alt="service"/>
+            <img className="service-image" src={require("../../assets/service-image.jpg")}/>
             <br></br>
-            <img className="service-image" src={require("../../assets/paintshop2.jpg")} alt="service"/>
+            <img className="service-image" src={require("../../assets/paintshop2.jpg")}/>
           </div>
         </div>
         <div className="bumper"/>
