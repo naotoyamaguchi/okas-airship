@@ -27,7 +27,7 @@ class Contact extends Component {
             "type":"text",
             "options":[],
             "sorting_position":1,
-            "value":"NameFromReact"
+            "value":""
           },
 
           {
@@ -37,7 +37,7 @@ class Contact extends Component {
             "type":"text",
             "options":[],
             "sorting_position":2,
-            "value":"EmailFromReact"
+            "value":""
           },
 
           {
@@ -47,7 +47,7 @@ class Contact extends Component {
             "type":"text",
             "options":[],
             "sorting_position":3,
-            "value":"PhoneFromReact"
+            "value":""
           },
 
           {
@@ -60,7 +60,7 @@ class Contact extends Component {
             "title":"contactMethod",
             "variable_name":"contactmethod",
             "sorting_position":4,
-            "value":"Email"
+            "value":""
           },
 
           {
@@ -70,7 +70,7 @@ class Contact extends Component {
             "type":"text",
             "options":[],
             "sorting_position":5,
-            "value":"MessageFromReact"
+            "value":""
           }
         ]
       }
@@ -132,27 +132,37 @@ class Contact extends Component {
   }
 
   sendEmail(){
-    fetch('https://okas.airshipcms.io/api/aerostats', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(this.state.request_body)
-    })
-    .then(res => res.json())
-    .catch(error => console.error('Error:', error))
-    .then(response => {
-      // console.log('Success:', response);
-      this.props.history.push('/contactconfirmation');
-    });
+    console.log("request body ", this.state.request_body);
+    console.log("request body name", this.state.request_body.fields[0].value);
+    console.log("request body email", this.state.request_body.fields[1].value);
+    console.log("request body phone", this.state.request_body.fields[2].value);
+    console.log("request body select", this.state.request_body.fields[3].value);
+    console.log("request body message", this.state.request_body.fields[4].value);
+
+    
+    // commented below out for now to disable email sending while testing.
+    
+    // fetch('https://okas.airshipcms.io/api/aerostats', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Accept': 'application/json',
+    //     'Content-Type': 'application/json',
+    //   },
+    //   body: JSON.stringify(this.state.request_body)
+    // })
+    // .then(res => res.json())
+    // .catch(error => console.error('Error:', error))
+    // .then(response => {
+    //   // console.log('Success:', response);
+    //   this.props.history.push('/contactconfirmation');
+    // });
   }
 
   // validation(){
   //   if (event.target.value === "") {
   //     alert("Please fill out all fields");
   //   } else {
-  //     return true; 
+  //     return true; X
   //   }
   // }
 
