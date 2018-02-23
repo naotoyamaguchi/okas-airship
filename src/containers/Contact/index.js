@@ -148,12 +148,27 @@ class Contact extends Component {
     });
   }
 
+  // validation(){
+  //   if (event.target.value === "") {
+  //     alert("Please fill out all fields");
+  //   } else {
+  //     return true; 
+  //   }
+  // }
+
   testFunc(){
     this.props.history.push('/contactconfirmation');
   }
 
   render() {
     const { redirect } = this.state;
+    // const { redirect, name, email, phone, message } = this.state;
+    // const isEnabled =
+    //   name.length > 0 &&
+    //   email.length > 0 &&
+    //   phone.length > 0 &&
+    //   message.length > 0;
+
     if (redirect) {
        return <Switch>
         <Redirect
@@ -192,6 +207,7 @@ class Contact extends Component {
               Message:<br/>
               <textarea type="text" className="message" onChange={this.handleMessageChange}/><br/>
               <button className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
+              // <button disabled={!isEnabled} className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
             </div>
             <hr className="mobile-hr"/>
             <div className="oka-contact-info">
