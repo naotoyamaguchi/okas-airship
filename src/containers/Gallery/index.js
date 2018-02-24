@@ -72,38 +72,6 @@ class Gallery extends Component {
 
               {galleryPost}
 
-               {/* <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image-2">
-                      <img src={require("../../assets/420.JPG")} alt="gallery-image"/>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image-2">
-                      <img src={require("../../assets/420.JPG")} alt="gallery-image"/>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image">
-                      <img src={require("../../assets/420.JPG")} alt="gallery-image"/>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="social-media-post social-media-has-image">
-                  <div className="social-media-post-inner">
-                    <div className="social-media-image">
-                      <img src={require("../../assets/420.JPG")} alt="gallery-image"/>
-                    </div>
-                  </div>
-                </div>*/}
-
             </div>
           </div>
 
