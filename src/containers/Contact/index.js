@@ -60,7 +60,7 @@ class Contact extends Component {
             "title":"contactMethod",
             "variable_name":"contactmethod",
             "sorting_position":4,
-            "value":""
+            "value":"Email"
           },
 
           {
@@ -158,13 +158,13 @@ class Contact extends Component {
     // });
   }
 
-  // validation(){
-  //   if (event.target.value === "") {
-  //     alert("Please fill out all fields");
-  //   } else {
-  //     return true; X
-  //   }
-  // }
+  validation(){
+    if (this.state.request_body.fields[0].value === "" || this.state.request_body.fields[1].value === "" || this.state.request_body.fields[2].value === "" || this.state.request_body.fields[3].value === "" || this.state.request_body.fields[4].value === "") {
+      alert("Please fill out all fields");
+    } else {
+      alert("ok!");
+    }
+  }
 
   testFunc(){
     this.props.history.push('/contactconfirmation');
@@ -216,7 +216,7 @@ class Contact extends Component {
                 </select><br/><br/>
               Message:<br/>
               <textarea type="text" className="message" onChange={this.handleMessageChange}/><br/>
-              <button className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
+              <button className="submit" onClick={this.sendEmail.bind(this), this.validation.bind(this)}>Submit ›</button>
               {/*<button disabled={!isEnabled} className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>*/}
             </div>
             <hr className="mobile-hr"/>
