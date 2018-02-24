@@ -217,7 +217,7 @@ class Contact extends Component {
               Message:<br/>
               <textarea type="text" className="message" onChange={this.handleMessageChange}/><br/>
               <button className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
-              // <button disabled={!isEnabled} className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
+              {/*<button disabled={!isEnabled} className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>*/}
             </div>
             <hr className="mobile-hr"/>
             <div className="oka-contact-info">
