@@ -172,12 +172,6 @@ class Contact extends Component {
 
   render() {
     const { redirect } = this.state;
-    // const { redirect, name, email, phone, message } = this.state;
-    // const isEnabled =
-    //   name.length > 0 &&
-    //   email.length > 0 &&
-    //   phone.length > 0 &&
-    //   message.length > 0;
 
     if (redirect) {
        return <Switch>
