@@ -2,6 +2,13 @@
   padding: 0 10%;
 }
 
+.input-error {
+  display: none;
+  color: red;
+  margin-bottom: 0;
+  font-size: .75em;
+}
+
 .contact-title {
   text-align: center;
   padding: 4% 0 2%;
@@ -25,6 +32,7 @@
   width: 80%;
   border: 1px solid #D2D2D2;
   padding-left: 0.5em;
+  margin-bottom: 1em;
 }
 
 .select {
@@ -34,6 +42,7 @@
   background-color: white;
   margin-top: 0.5em;
   padding-left: 0.5em;
+  margin-bottom: 1em;
 }
 
 .message {

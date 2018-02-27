@@ -13,7 +13,7 @@ class Contact extends Component {
 
     this.state = {
       redirect: false,
-      form_name: "HelloWorldName",
+      form_name: "Email Message",
       request_body: {
         "aerostat_collection_id": 582,
         "tags": [],
@@ -132,39 +132,77 @@ class Contact extends Component {
   }
 
   sendEmail(){
-    console.log("request body ", this.state.request_body);
-    console.log("request body name", this.state.request_body.fields[0].value);
-    console.log("request body email", this.state.request_body.fields[1].value);
-    console.log("request body phone", this.state.request_body.fields[2].value);
-    console.log("request body select", this.state.request_body.fields[3].value);
-    console.log("request body message", this.state.request_body.fields[4].value);
-
-    
-    // commented below out for now to disable email sending while testing.
-    
-    // fetch('https://okas.airshipcms.io/api/aerostats', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Accept': 'application/json',
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify(this.state.request_body)
-    // })
-    // .then(res => res.json())
-    // .catch(error => console.error('Error:', error))
-    // .then(response => {
-    //   // console.log('Success:', response);
-    //   this.props.history.push('/contactconfirmation');
-    // });
-  }
-
-  validation(){
-    if (this.state.request_body.fields[0].value === "" || this.state.request_body.fields[1].value === "" || this.state.request_body.fields[2].value === "" || this.state.request_body.fields[3].value === "" || this.state.request_body.fields[4].value === "") {
-      alert("Please fill out all fields");
-    } else {
-      alert("ok!");
+    if(this.validation2() === false){
+      return;
     }
+    
+    fetch('https://okas.airshipcms.io/api/aerostats', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(this.state.request_body)
+    })
+    .then(res => res.json())
+    .catch(error => console.error('Error:', error))
+    .then(response => {
+      // console.log('Success:', response);
+      this.props.history.push('/contactconfirmation');
+    });
   }
+
+  checkIfEmailInString(text) { 
+      var re = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+      return re.test(text);
+  }
+
+  validation2(){
+    var nametext = document.getElementsByClassName("name-error");
+    var emailtext = document.getElementsByClassName("email-error");
+    var phonetext = document.getElementsByClassName("phone-error");
+    var contacttext = document.getElementsByClassName("contactmessage-error");
+
+    var passed = true;
+
+    if(this.state.request_body.fields[0].value === ""){    
+      nametext[0].style.display = "block";
+      passed = false;
+    } else {
+      nametext[0].style.display = "none";
+    }
+
+    if(this.checkIfEmailInString(this.state.request_body.fields[1].value) === false){
+      emailtext[0].style.display = "block";
+      passed = false;
+    } else {
+      emailtext[0].style.display = "none";
+    }
+
+    if(this.state.request_body.fields[2].value === ""){
+      phonetext[0].style.display = "block";
+      passed = false;
+    } else {
+      phonetext[0].style.display = "none";
+    }
+
+    if(this.state.request_body.fields[4].value === ""){
+      contacttext[0].style.display = "block";
+      passed = false;
+    } else {
+      contacttext[0].style.display = "none";
+    }
+
+    return passed;
+  }
+
+  // validation(){
+  //   if (this.state.request_body.fields[0].value === "" || this.state.request_body.fields[1].value === "" || this.state.request_body.fields[2].value === "" || this.state.request_body.fields[3].value === "" || this.state.request_body.fields[4].value === "") {
+  //     alert("Please fill out all fields");
+  //   } else {
+  //     alert("ok!");
+  //   }
+  // }
 
   testFunc(){
     this.props.history.push('/contactconfirmation');
@@ -189,7 +227,6 @@ class Contact extends Component {
         <div className="contact">
           <div className="contact-header">
             <h1 className="header-title">
-              {/*<Link to="/appointment">Make an Appointment!</Link>*/}
               Contact Us
             </h1>
           </div>
@@ -197,20 +234,33 @@ class Contact extends Component {
           <div className="contact-body">
             <div className="contact-form">
               <h3 className="body-subheader">Send Us a Message</h3>
-              Name:<br/>
-              <input type="text" className="name" onChange={this.handleNameChange}/><br/><br/>
-              Email:<br/>
-              <input type="text" className="email" onChange={this.handleEmailChange}/><br/><br/>
-              Phone:<br/>
-              <input type="number" className="phone" onChange={this.handlePhoneChange}/><br/><br/>
-              What is your preferred method of contact?<br/>
+              <p>Name:</p>
+              <p className="name-error input-error">Please enter a name</p>
+              <input type="text" className="name" onChange={this.handleNameChange}/>
+              
+              
+              <p>Email:</p>
+              <p className="email-error input-error">Please enter a valid email</p>
+              <input type="text" className="email" onChange={this.handleEmailChange}/>
+              
+              
+              <p>Phone:</p>
+              <p className="phone-error input-error">Please enter a phone number</p>
+              <input type="number" className="phone" onChange={this.handlePhoneChange}/>
+              
+              
+              <p>What is your preferred method of contact?</p>
                 <select className="select" onChange={this.handleSelectChange}>
                 <option value="Email">Email</option>
                 <option value="Phone">Phone</option>
-                </select><br/><br/>
-              Message:<br/>
-              <textarea type="text" className="message" onChange={this.handleMessageChange}/><br/>
-              <button className="submit" onClick={this.sendEmail.bind(this), this.validation.bind(this)}>Submit ›</button>
+                </select>
+              
+              <p>Message:</p>
+              <p className="contactmessage-error input-error">Please fill out a message</p>
+              <textarea type="text" className="message" onChange={this.handleMessageChange}/>
+              <br/>
+              
+              <button className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>
               {/*<button disabled={!isEnabled} className="submit" onClick={this.sendEmail.bind(this)}>Submit ›</button>*/}
             </div>
             <hr className="mobile-hr"/>
