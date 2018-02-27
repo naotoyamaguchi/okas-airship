@@ -266,12 +266,20 @@ class Contact extends Component {
             <hr className="mobile-hr"/>
             <div className="oka-contact-info">
               <h3 className="body-subheader">Contact Info</h3>
-              Address:<br/>
-              94-173 Leokane St.<br/>
-              Waipahu, HI 96897<br/><br/>
-              Phone:<br/>
-              808-677-5474<br/><br/>
-              Hours:<br/>
+              <span className="contactinfo-subheader">Address:</span>
+              <br/>
+              94-173 Leokane St.
+              <br/>
+              Waipahu, HI 96897
+              <br/>
+              <br/>
+              <span className="contactinfo-subheader">Phone:</span>
+              <br/>
+              808-677-5474
+              <br/>
+              <br/>
+              <span className="contactinfo-subheader">Hours:</span>
+              <br/>
               7:30 – 4:30 M–F
             </div>
           </div>

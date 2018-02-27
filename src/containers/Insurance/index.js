@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-// import ReactDOM from 'react-dom'; 
-// import { Link } from 'react-router-dom';
 import './index.css';
 
 class Insurance extends Component {
@@ -31,7 +29,7 @@ class Insurance extends Component {
 
               Family and friends who have gone through the repair process also can be a great source of advice, and don’t forget about your dealership—it may have its own body shop, but if it doesn’t, it can likely offer a list of reputable shops in the area.
 
-              Remember, the body shop is fixing YOUR vehicle for YOU, and it’s important you’re comfortable with the shop you choose. If you’re making an insurance claim, your insurer pays the bill, but most states prohibit the insurer from requiring you use a particular shop—that means, ultimately, no matter what you hear, the body shop is YOUR CHOICE.
+              Remember, the body shop is fixing YOUR vehicle for YOU, and it’s important you’re comfortable with the shop you choose. If you’re making an insurance claim, your insurer pays the bill, but most states prohibit the insurer from requiring you use a particular shop—that means, ultimately, no matter what you hear, <strong>the body shop is YOUR CHOICE</strong>.
 
               </div>
             </div>

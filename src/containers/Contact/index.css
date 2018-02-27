@@ -2,6 +2,11 @@
   padding: 0 10%;
 }
 
+.contactinfo-subheader {
+  font-size: 1.15em;
+  color: #3a3a3a;
+}
+
 .input-error {
   display: none;
   color: red;

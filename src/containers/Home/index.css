@@ -44,7 +44,7 @@
 }
 
 .top-description {
-	font-size: 1.25em;
+	font-size: 1.2em;
 	/*line-height: 19px;*/
 }
 
@@ -60,6 +60,7 @@
 }
 .insurance-header {
 	font-size: 1.2em;
+	font-weight: 600;
 }
 
 .certification-image {
@@ -198,6 +199,12 @@
 	padding: 12px 3px;
 	color: #FFF;
 }
+
+.insurance-button:hover {
+	background-color: #FFF;
+	color: #3D5AAA;
+}
+
 .insurance-image {
 	/*border: 1px solid red;*/
 	flex: 0 0 30%;
