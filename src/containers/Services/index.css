@@ -42,7 +42,8 @@
 }
 
 .service-image {
-  padding: 1em 0em 0em 0em;
+  margin: 1em 0em 0em 0em;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
 .bumper {
