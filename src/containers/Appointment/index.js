@@ -35,7 +35,7 @@ class Appointment extends Component {
           <div className="appointment">
             <h1 className="header-title">Book an Appointment</h1>
             <hr/>
-            <p>Quick steps to booking an appointment with us! We do appointments via phone as well!</p>
+            <p>Quick steps to booking an appointment with us! We do appointments via <a href="tel:18086775474">phone</a> as well!</p>
           </div>
           <div className="calendly-inline-widget" data-url="https://calendly.com/naotoy/15min">
           </div>
