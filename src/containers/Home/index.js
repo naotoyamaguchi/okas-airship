@@ -49,7 +49,7 @@ class Home extends Component {
             <div className="carousel-item">
               <img className="d-block w-100" src={require("../../assets/group-cropped2.jpg")} alt="Second slide"/>
             </div>
-            <div className="carousel-item active">
+            <div className="carousel-item">
               <img className="d-block w-100" src={require("../../assets/group-cropped3.jpg")} alt="First slide"/>
             </div>
             <div className="carousel-item">
