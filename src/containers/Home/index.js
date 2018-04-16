@@ -112,7 +112,7 @@ class Home extends Component {
               </div>
               <div className="secondary-media" id="media2">
                 <div className="video-wrapper">
-                  <iframe src="https://www.youtube.com/embed/vN8A9MiALg4"  allowFullScreen className="media2-youtube"></iframe>
+                  <iframe src="https://www.youtube.com/embed/lZGl7LkmHmk"  allowFullScreen className="media2-youtube"></iframe>
                 </div>
               </div>
             </div>
