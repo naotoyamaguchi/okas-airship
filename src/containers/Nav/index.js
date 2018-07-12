@@ -26,13 +26,6 @@ class Nav extends Component {
                 </div>
               </li>
             </Link>
-            <Link to="/contact">
-              <li className="nav-item">
-                <div className="nav-link">
-                  <span className="nav-anchor">Contact</span>
-                </div>
-              </li>
-            </Link>
             <Link to="/services">
               <li className="nav-item">
                 <div className="nav-link">
@@ -61,6 +54,13 @@ class Nav extends Component {
                 </div>
               </li>
             </Link>
+            <Link to="/contact">
+              <li className="nav-item">
+                <div className="nav-link">
+                  <span className="nav-anchor">Contact</span>
+                </div>
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="header-info">
@@ -70,7 +70,7 @@ class Nav extends Component {
           <div className="header-info-line">
             <span className="info-span1">808-677-5474</span>
             <span className="info-separator">•</span>
-            <span className="info-span2">Hours: 7:30-4:30 M-F</span>
+            <span className="info-span2">7:30-4:30 Mon Thru Fri</span>
           </div>
         </div>
 

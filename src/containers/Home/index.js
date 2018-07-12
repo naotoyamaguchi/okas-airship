@@ -44,7 +44,7 @@ class Home extends Component {
         <div id="carouselControls" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="d-block w-100" src={require("../../assets/group-cropped.jpg")} alt="First slide"/>
+              <img className="d-block w-100" src={require("../../assets/Okas50.jpg")} alt="First slide"/>
             </div>
             <div className="carousel-item">
               <img className="d-block w-100" src={require("../../assets/group-cropped2.jpg")} alt="Second slide"/>
@@ -90,9 +90,12 @@ class Home extends Component {
       <div className="home-certifications">
           <span className="certification-header">WE ARE CERTIFIED</span>
           <div className="certification-bar">
-            <img className="certification-image" src={require("../../assets/ACoat_Cert.jpg")} alt="home-pic"/>
             <img className="certification-image" src={require("../../assets/Icar_Cert.png")} alt="home-pic"/>
             <img className="certification-image" src={require("../../assets/ASE_Cert.png")} alt="home-pic"/>
+            <img className="certification-image" src={require("../../assets/sikkens.png")} alt="home-pic"/>
+            <img className="certification-image" src={require("../../assets/ACoat_Cert.jpg")} alt="home-pic"/>
+            
+            
           </div>
       </div>
 

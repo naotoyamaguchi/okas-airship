@@ -35,10 +35,13 @@ class Appointment extends Component {
           <div className="appointment">
             <h1 className="header-title">Book an Appointment</h1>
             <hr/>
-            <p>Quick steps to booking an appointment with us! We do appointments via phone as well!</p>
+            {/*<p>Quick steps to booking an appointment with us! We do appointments via phone as well!</p>*/}
+            <p>Under brief maintenance, but we'll have this back up real soon. Please feel free to call us for an appointment at 808-677-5474 in the meantime.</p>
           </div>
-          <div className="calendly-inline-widget" data-url="https://calendly.com/naotoy/15min">
-          </div>
+
+
+          {/*<div className="calendly-inline-widget" data-url="https://calendly.com/naotoy/15min">
+          </div>*/}
       </div>
     );
   }

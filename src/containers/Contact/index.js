@@ -280,7 +280,7 @@ class Contact extends Component {
               <br/>
               <span className="contactinfo-subheader">Hours:</span>
               <br/>
-              7:30 – 4:30 M–F
+              7:30 – 4:30 Mon Thru Fri
             </div>
           </div>
           <hr/>

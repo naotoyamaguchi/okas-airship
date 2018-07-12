@@ -6,7 +6,6 @@ import Contact from "./containers/Contact";
 import Faq from "./containers/Faq";
 import Estimates from "./containers/Estimates";
 import Services from './containers/Services';
-import Appointment from './containers/Appointment';
 import ContactConfirmation from './containers/ContactConfirmation';
 import Insurance from './containers/Insurance';
 import Gallery from './containers/Gallery';
@@ -23,7 +22,6 @@ ReactDOM.render(
         <Route exact path="/faq" component={Faq} />
         <Route exact path="/estimates" component={Estimates} />
         <Route exact path="/services" component={Services} />
-        <Route exact path="/appointment" component={Appointment} />
         <Route exact path="/contactconfirmation" component={ContactConfirmation} />
         <Route exact path="/insurance" component={Insurance} />
         <Route exact path="/gallery" component={Gallery} />
